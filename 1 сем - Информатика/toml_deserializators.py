@@ -1,6 +1,8 @@
 import os
 from abc import ABC, abstractmethod
 from schedule import Lesson, Day, Week, Schedule
+import toml
+
 
 class TOMLDeserializatorFabric:
     def get_toml_deserializator(self, deserializator_type):

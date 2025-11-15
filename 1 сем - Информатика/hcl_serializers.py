@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 from pytfvars import tfvars
 from schedule import Lesson, Day, Week, Schedule
 
+
 class HCLSerializerFabric:
     def get_hcl_serializer(self, schedule, serializer_type):
         if serializer_type == "SelfWritten":
