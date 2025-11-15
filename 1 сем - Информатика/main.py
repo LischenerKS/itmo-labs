@@ -1,9 +1,26 @@
 import os
-
+from abc import abstractmethod, ABC
+import toml
 from schedule import Lesson, Day, Week, Schedule
 
 
-class SelfWrittenTOMLDeserializator:
+class TOMLDeserializatorFabric:
+    def get_toml_deserializator(self, deserializator_type):
+        if deserializator_type == "SelfWritten":
+            return SelfWrittenTOMLDeserializator()
+        elif deserializator_type == "Lib":
+            return LibTOMLDeserializator()
+
+        return None
+
+
+class AbstractTOMLDeserializator(ABC):
+    @abstractmethod
+    def toml_to_schedule(self, path_to_toml_file):
+        pass
+
+
+class SelfWrittenTOMLDeserializator(AbstractTOMLDeserializator):
     def _path_validator(self, path):
         if not os.path.isfile(path):
             raise FileNotFoundError
@@ -105,7 +122,6 @@ class SelfWrittenTOMLDeserializator:
         blocks = self._parse_blocks(toml_string)
 
         for block in blocks:
-            print(block)
             block_name_dot_counter = block[0].count(".")
             block_content = block[3]
 
@@ -131,6 +147,55 @@ class SelfWrittenTOMLDeserializator:
                 )
                 current_day.add_lesson(lesson)
         return current_schedule
+
+
+class LibTOMLDeserializator(AbstractTOMLDeserializator):
+    def toml_to_schedule(self, path_to_toml_file):
+        toml_dict = toml.load(path_to_toml_file)
+        # print(toml_dict)
+        schedule = Schedule(toml_dict["schedule"]["id"])
+
+        week_names = list(toml_dict["schedule"].keys())
+        week_content = list(toml_dict["schedule"].values())
+        # print(week_names)
+        # print(week_content)
+        for i in range(len(week_content)):
+            if week_content[i] == schedule.get_student_id():  # пропускаем id
+                continue
+
+            week = Week(
+                week_name=week_names[i], parity_check=week_content[i]["parity_check"]
+            )
+            schedule.add_week(week)
+
+            days_names = list(week_content[i].keys())
+            days_content = list(week_content[i].values())
+            # print(days_names, days_content)
+            for j in range(len(days_content)):
+                if (
+                    days_content[j] == week.get_parity_check()
+                ):  # пропускаем parity_check
+                    continue
+
+                day = Day(days_names[j])
+                week.add_day(day)
+
+                lessons_names = list(days_content[j].keys())
+                lessons_content = list(days_content[j].values())
+                # print(lessons_names, lessons_content)
+                for k in range(len(lessons_content)):
+                    time = lessons_content[k]["time"]
+                    discipline = lessons_content[k]["discipline"]
+                    type_ = lessons_content[k]["type"]
+                    lecturer = lessons_content[k]["lecturer"]
+                    classroom = lessons_content[k]["classroom"]
+                    lesson_number = lessons_names[k]
+
+                    lesson = Lesson(
+                        time, discipline, type_, lecturer, classroom, lesson_number
+                    )
+                    day.add_lesson(lesson)
+        return schedule
 
 
 class SelfWrittenHCLSerializer:
@@ -168,8 +233,9 @@ class SelfWrittenHCLSerializer:
 
 if __name__ == "__main__":
     path = "schedule.toml"
-    my_toml_deserializer = SelfWrittenTOMLDeserializator()
+    my_toml_deserializer_fabric = TOMLDeserializatorFabric()
+    my_toml_deserializer = my_toml_deserializer_fabric.get_toml_deserializator("Lib")
+
     schedule = my_toml_deserializer.toml_to_schedule(path)
-    print(schedule)
     my_hcl_serializer = SelfWrittenHCLSerializer(schedule)
     my_hcl_serializer.schedule_to_hcl()
