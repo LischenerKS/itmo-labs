@@ -66,8 +66,7 @@ class TOMLDeserializator:
         # print(data)
         return data
 
-    def _parse_blocks(self, toml_string) -> list[list[str, int, int, list]]:
-        # todo переписать типизацию
+    def _parse_blocks(self, toml_string):
         bracket_open_index = 0
         bracket_close_index = 0
         blocks = []
@@ -97,7 +96,7 @@ class TOMLDeserializator:
         block_content = block_content.split("\n")
         block_content = self._clear_data(block_content)
         blocks[len(blocks) - 1].append(block_content)
-
+        print(blocks)
         return blocks
 
     def get_schedule(self, path_to_toml_file):
