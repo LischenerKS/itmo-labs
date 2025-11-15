@@ -7,28 +7,28 @@
 			[schedule.week1.tuesday.1]
 			time = "09:50 - 11:20" 
 			discipline = "Математический анализ"
-			type = "лекция"
+			type = "Лекция"
 			lecturer = "Попов Антон Игоревич"
 			classroom = "1405"
 			
 			[schedule.week1.tuesday.2]
 			time = "11:30 - 13:00" 
 			discipline = "Математический анализ"
-			type = "практика"
+			type = "Практика"
 			lecturer = "Попов Антон Игоревич"
 			classroom = "2316"
 
 			[schedule.week1.tuesday.3]
 			time = "13:30 - 15:00" 
 			discipline = "Алгебра и алгоритмы"
-			type = "лекция"
+			type = "Лекция"
 			lecturer = "Попов Антон Игоревич"
 			classroom = "1405"
 			
 			[schedule.week1.tuesday.4]
 			time = "15:30 - 17:00" 
 			discipline = "Алгебра и алгоритмы"
-			type = "практика"
+			type = "Практика"
 			lecturer = "Попов Антон Игоревич"
 			classroom = "2316"
 			
@@ -36,14 +36,14 @@
 			[schedule.week1.thursday.1]
 			time = "11:30 - 13:00" 
 			discipline = "История российской науки и техники"
-			type = "практика"
+			type = "Практика"
 			lecturer = "Васильев Андрей Владимирович"
 			classroom = "2326"
 			
 			[schedule.week1.thursday.2]
 				time = "13:30 - 15:00" 
 				discipline = "История российской науки и техники"
-				type = "лекция"
+				type = "Лекция"
 				lecturer = "Васильев Андрей Владимирович"
 				classroom = "1404"
 	[schedule.week2]
@@ -52,44 +52,46 @@
 			[schedule.week2.tuesday.1]
 			time = "09:50 - 11:20" 
 			discipline = "Математический анализ"
-			type = "лекция"
+			type = "Лекция"
 			lecturer = "Попов Антон Игоревич"
 			classroom = "1405"
 			
 			[schedule.week2.tuesday.2]
 			time = "11:30 - 13:00" 
 			discipline = "Математический анализ"
-			type = "практика"
+			type = "Практика"
 			lecturer = "Попов Антон Игоревич"
 			classroom = "2316"
 
 			[schedule.week2.tuesday.3]
 			time = "13:30 - 15:00" 
 			discipline = "Алгебра и алгоритмы"
-			type = "лекция"
+			type = "Лекция"
 			lecturer = "Попов Антон Игоревич"
 			classroom = "1405"
 			
 			[schedule.week2.tuesday.4]
 			time = "15:30 - 17:00" 
 			discipline = "Алгебра и алгоритмы"
-			type = "практика"
+			type = "Практика"
 			lecturer = "Попов Антон Игоревич"
 			classroom = "2316"
 		[schedule.week2.thursday]
 			[schedule.week2.thursday.1]
 			time = "08:10 - 09:40" 
 			discipline = "Программирование"
-			type = "лабораторная"
+			type = "Лабораторная"
 			lecturer = "Бобрусь Александр Владимирович"
 			classroom = "1333"
 			
 			[schedule.week2.thursday.2]
-			time = "09:50 - 11:20" 
-			discipline = "Программирование"
-			type = "лабораторная"
-			lecturer = "Бобрусь Александр Владимирович"
-			classroom = "1333"
+			time = "09:50 - 11:20"
+			discipline = "Программирование" # dawddaddawdwaaw
+			type = "Лабораторная" # awdawdawdada dawaw
+			lecturer = "Бобрусь Александр Владимирович"# adawdawdawdawdawdaw
+            #dawdawdawdwsdadadawd
+            #awdawdawdawdaw
+            classroom = "1333"
 			
 
 
