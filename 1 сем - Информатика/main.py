@@ -3,7 +3,7 @@ import os
 from schedule import Lesson, Day, Week, Schedule
 
 
-class TOMLDeserializator:
+class SelfWrittenTOMLDeserializator:
     def _path_validator(self, path):
         if not os.path.isfile(path):
             raise FileNotFoundError
@@ -63,7 +63,6 @@ class TOMLDeserializator:
         data = self._getvalues_from_key_value_pairs(data)
         data = self._delete_empty_elements(data)
 
-        # print(data)
         return data
 
     def _parse_blocks(self, toml_string):
@@ -96,10 +95,9 @@ class TOMLDeserializator:
         block_content = block_content.split("\n")
         block_content = self._clear_data(block_content)
         blocks[len(blocks) - 1].append(block_content)
-        print(blocks)
         return blocks
 
-    def get_schedule(self, path_to_toml_file):
+    def toml_to_schedule(self, path_to_toml_file):
         self._path_validator(path_to_toml_file)
 
         toml_file = open(path_to_toml_file, "r", encoding="utf-8")
@@ -107,33 +105,71 @@ class TOMLDeserializator:
         blocks = self._parse_blocks(toml_string)
 
         for block in blocks:
-            # print(block)
+            print(block)
             block_name_dot_counter = block[0].count(".")
             block_content = block[3]
 
             if block_name_dot_counter == 0:
-                schedule = Schedule(block_content)
+                current_schedule = Schedule(int(block_content[0]))
             elif block_name_dot_counter == 1:  # блок недели
-                week = Week(block_content)
-                schedule.add_week(week)
+                current_week = Week(block_content[0], block[0].split(".")[1])
+
+                current_schedule.add_week(current_week)
             elif block_name_dot_counter == 2:  # блок дня
-                day = Day()
-                week.add_day(day)
+                current_day = Day(block[0].split(".")[2])
+                current_week.add_day(current_day)
             elif block_name_dot_counter == 3:  # блок урока
                 time = block_content[0]
                 discipline = block_content[1]
                 type = block_content[2]
                 lecturer = block_content[3]
                 classroom = block_content[4]
+                lesson_number = block[0].split(".")[3]
 
-                lesson = Lesson(time, discipline, type, lecturer, classroom)
-                day.add_lesson(lesson)
-        return schedule
+                lesson = Lesson(
+                    time, discipline, type, lecturer, classroom, lesson_number
+                )
+                current_day.add_lesson(lesson)
+        return current_schedule
+
+
+class SelfWrittenHCLSerializer:
+    def __init__(self, schedule: Schedule):
+        self.schedule = schedule
+
+    def schedule_to_hcl(self):
+        result_string = '"schedule" = {\n'
+        result_string += f'  "id" = "{self.schedule.get_student_id()}"\n\n'
+
+        for week in self.schedule.get_weeks():
+            result_string += f'  "{week.get_week_name()}" = ' + "{\n"
+            result_string += f'    "parity_check" = "{week.get_parity_check()}"\n\n'
+
+            for day in week.get_days():
+                day_name = day.get_day_name()
+                for lesson in day.get_lessons():
+                    result_string += (
+                        f'    "{day_name}" "{lesson.get_lesson_number()}" ' + "{\n"
+                    )
+                    result_string += f'      "classroom" = "{lesson.get_classroom()}"\n'
+                    result_string += (
+                        f'      "discipline" = "{lesson.get_discipline()}"\n'
+                    )
+                    result_string += f'      "lecturer" = "{lesson.get_lecturer()}"\n'
+                    result_string += f'      "time" = "{lesson.get_time()}"\n'
+                    result_string += f'      "type" = "{lesson.get_type()}"\n'
+                    result_string += "    }\n"
+            result_string += "  }\n"
+        result_string += "}"
+
+        with open("schedule.hcl", "w", encoding="utf-8") as file:
+            file.write(result_string)
 
 
 if __name__ == "__main__":
     path = "schedule.toml"
-    obj = TOMLDeserializator()
-    shedule = obj.get_schedule(path)
-
-    print(shedule)
+    my_toml_deserializer = SelfWrittenTOMLDeserializator()
+    schedule = my_toml_deserializer.toml_to_schedule(path)
+    print(schedule)
+    my_hcl_serializer = SelfWrittenHCLSerializer(schedule)
+    my_hcl_serializer.schedule_to_hcl()
