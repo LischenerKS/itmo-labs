@@ -13,10 +13,10 @@ public final class Rampardos extends Cranidos {
     private final double SPEED = 58;
 
     public Rampardos(String name, int level) {
-        super(name, level);  
+        super(name, level);
         super.setStats(HP, ATT, DEF, SP_ATT, SP_DEF, SPEED);
-        
+
         FocusBlast att4 = new FocusBlast();
         super.addMove(att4);
-    }    
+    }
 }

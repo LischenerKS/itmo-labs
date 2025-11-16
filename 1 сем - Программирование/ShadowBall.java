@@ -9,7 +9,7 @@ import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
-public final class ShadowBall extends SpecialMove{
+public final class ShadowBall extends SpecialMove {
     private static final Type TYPE = Type.GHOST;
     private static final double POW = 80;
     private static final double ACC = 1;
@@ -17,7 +17,7 @@ public final class ShadowBall extends SpecialMove{
     public ShadowBall() {
         super(TYPE, POW, ACC);
     }
-    
+
     @Override
     protected String describe() {
         return "use Shadow Ball";

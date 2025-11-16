@@ -1,8 +1,8 @@
 /*
-*   Author = Lischener Kirill
-*   Group = P3114
-*   Date = 09.10.2025
-*/
+ *   Author = Lischener Kirill
+ *   Group = P3114
+ *   Date = 09.10.2025
+ */
 
 import ru.ifmo.se.pokemon.Battle;
 

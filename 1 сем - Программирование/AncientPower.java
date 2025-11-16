@@ -9,16 +9,16 @@ import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
-public final class AncientPower extends SpecialMove{
+public final class AncientPower extends SpecialMove {
     private static final Type TYPE = Type.ROCK;
     private static final double POW = 60;
     private static final double ACC = 1;
-    
+
 
     public AncientPower() {
         super(TYPE, POW, ACC);
     }
-    
+
     @Override
     protected String describe() {
         return "use Ancient Power";

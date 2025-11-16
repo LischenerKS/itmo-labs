@@ -17,7 +17,7 @@ public final class Facade extends PhysicalMove {
     public Facade() {
         super(TYPE, POW, ACC);
     }
-    
+
     @Override
     protected String describe() {
         return "use Facade";

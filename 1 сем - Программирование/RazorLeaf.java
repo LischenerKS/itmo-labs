@@ -7,6 +7,7 @@
 import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
+
 import java.lang.Math;
 
 public final class RazorLeaf extends PhysicalMove {

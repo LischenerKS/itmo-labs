@@ -18,9 +18,9 @@ public class Budew extends Pokemon {
 
     public Budew(String name, int level) {
         super(name, level);
-        super.setType(Type.GRASS, Type.POISON);         
+        super.setType(Type.GRASS, Type.POISON);
         super.setStats(HP, ATT, DEF, SP_ATT, SP_DEF, SPEED);
-        
+
         Facade att1 = new Facade();
         super.addMove(att1);
 

@@ -11,7 +11,7 @@ public class Roselia extends Budew {
     private final double SP_ATT = 100;
     private final double SP_DEF = 80;
     private final double SPEED = 65;
-    
+
     public Roselia(String name, int level) {
         super(name, level);
         super.setStats(HP, ATT, DEF, SP_ATT, SP_DEF, SPEED);

@@ -9,16 +9,16 @@ import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
-public final class FocusBlast extends SpecialMove{
+public final class FocusBlast extends SpecialMove {
     private static final Type TYPE = Type.FIGHTING;
     private static final double POW = 120;
     private static final double ACC = 0.7;
-    
+
 
     public FocusBlast() {
         super(TYPE, POW, ACC);
     }
-    
+
     @Override
     protected String describe() {
         return "use Focus Blast";

@@ -17,12 +17,12 @@ public final class HeadSmash extends PhysicalMove {
     public HeadSmash() {
         super(TYPE, POW, ACC);
     }
-    
+
     @Override
     protected String describe() {
         return "use Facade";
     }
-    
+
     @Override
     protected double calcBaseDamage(Pokemon att, Pokemon def) {
         double damage = super.calcBaseDamage(att, def);

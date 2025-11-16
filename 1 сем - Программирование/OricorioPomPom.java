@@ -17,7 +17,7 @@ public final class OricorioPomPom extends Pokemon {
 
     public OricorioPomPom(String name, int level) {
         super(name, level);
-        super.setType(Type.ELECTRIC, Type.FLYING);         
+        super.setType(Type.ELECTRIC, Type.FLYING);
         super.setStats(HP, ATT, DEF, SP_ATT, SP_DEF, SPEED);
 
         TeeterDance att1 = new TeeterDance();
@@ -28,7 +28,7 @@ public final class OricorioPomPom extends Pokemon {
 
         Swagger att3 = new Swagger();
         super.addMove(att3);
-        
+
         AerialAce att4 = new AerialAce();
         super.addMove(att4);
     }

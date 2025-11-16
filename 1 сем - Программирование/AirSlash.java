@@ -17,7 +17,7 @@ public final class AirSlash extends SpecialMove {
     public AirSlash() {
         super(TYPE, POW, ACC);
     }
-    
+
     @Override
     protected String describe() {
         return "use Air Slash";
@@ -26,9 +26,9 @@ public final class AirSlash extends SpecialMove {
     @Override
     protected void applyOppEffects(Pokemon def) {
         //? рассчет шанса математически верен?
-        boolean isFlinchUsed = Math.random() < 1/3;
+        boolean isFlinchUsed = Math.random() < 1 / 3;
         if (isFlinchUsed) {
             Effect.flinch(def);
-        } 
+        }
     }
 }

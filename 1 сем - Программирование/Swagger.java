@@ -18,12 +18,12 @@ public final class Swagger extends StatusMove {
     public Swagger() {
         super(TYPE, POW, ACC);
     }
-    
+
     @Override
     protected String describe() {
         return "use Swagger";
     }
-    
+
     @Override
     protected void applyOppEffects(Pokemon def) {
         Effect.flinch(def);

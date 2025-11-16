@@ -17,9 +17,9 @@ public class Cranidos extends Pokemon {
 
     public Cranidos(String name, int level) {
         super(name, level);
-        super.setType(Type.ROCK);         
+        super.setType(Type.ROCK);
         super.setStats(HP, ATT, DEF, SP_ATT, SP_DEF, SPEED);
- 
+
         Swagger att1 = new Swagger();
         super.addMove(att1);
 
