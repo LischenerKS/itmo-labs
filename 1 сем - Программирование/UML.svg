@@ -1,0 +1,413 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     data-diagram-type="CLASS" height="386px" preserveAspectRatio="none"
+     style="width:1807px;height:386px;background:#FFFFFF;" version="1.1" viewBox="0 0 1807 386" width="1807px"
+     zoomAndPan="magnify">
+    <defs/>
+    <g><!--class Pokemon-->
+        <g class="entity" data-entity="Pokemon" data-source-line="4" data-uid="ent0002" id="entity_Pokemon">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96.8047"
+                  x="134.62" y="7"/>
+            <ellipse cx="149.62" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M152.5888,28.6406 Q152.0106,28.9375 151.37,29.0781 Q150.7294,29.2344 150.0263,29.2344 Q147.5263,29.2344 146.1981,27.5938 Q144.8856,25.9375 144.8856,22.8125 Q144.8856,19.6875 146.1981,18.0313 Q147.5263,16.375 150.0263,16.375 Q150.7294,16.375 151.37,16.5313 Q152.0263,16.6875 152.5888,16.9844 L152.5888,19.7031 Q151.9638,19.125 151.37,18.8594 Q150.7763,18.5781 150.1513,18.5781 Q148.8075,18.5781 148.12,19.6563 Q147.4325,20.7188 147.4325,22.8125 Q147.4325,24.9063 148.12,25.9844 Q148.8075,27.0469 150.1513,27.0469 Q150.7763,27.0469 151.37,26.7813 Q151.9638,26.5 152.5888,25.9219 L152.5888,28.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64.8047"
+                  x="163.62" y="27.8467">Pokemon
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="135.62" x2="230.4247" y1="39" y2="39"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="135.62" x2="230.4247" y1="47" y2="47"/>
+        </g><!--class Move-->
+        <g class="entity" data-entity="Move" data-source-line="7" data-uid="ent0003" id="entity_Move">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="69.543"
+                  x="1045.25" y="7"/>
+            <ellipse cx="1060.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1063.2188,28.6406 Q1062.6406,28.9375 1062,29.0781 Q1061.3594,29.2344 1060.6563,29.2344 Q1058.1563,29.2344 1056.8281,27.5938 Q1055.5156,25.9375 1055.5156,22.8125 Q1055.5156,19.6875 1056.8281,18.0313 Q1058.1563,16.375 1060.6563,16.375 Q1061.3594,16.375 1062,16.5313 Q1062.6563,16.6875 1063.2188,16.9844 L1063.2188,19.7031 Q1062.5938,19.125 1062,18.8594 Q1061.4063,18.5781 1060.7813,18.5781 Q1059.4375,18.5781 1058.75,19.6563 Q1058.0625,20.7188 1058.0625,22.8125 Q1058.0625,24.9063 1058.75,25.9844 Q1059.4375,27.0469 1060.7813,27.0469 Q1061.4063,27.0469 1062,26.7813 Q1062.5938,26.5 1063.2188,25.9219 L1063.2188,28.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37.543"
+                  x="1074.25" y="27.8467">Move
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1046.25" x2="1113.793" y1="39" y2="39"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1046.25" x2="1113.793" y1="47" y2="47"/>
+        </g><!--class PhysicalMove-->
+        <g class="entity" data-entity="PhysicalMove" data-source-line="10" data-uid="ent0004" id="entity_PhysicalMove">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126.4932"
+                  x="523.77" y="115"/>
+            <ellipse cx="538.77" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M541.7388,136.6406 Q541.1606,136.9375 540.52,137.0781 Q539.8794,137.2344 539.1763,137.2344 Q536.6763,137.2344 535.3481,135.5938 Q534.0356,133.9375 534.0356,130.8125 Q534.0356,127.6875 535.3481,126.0313 Q536.6763,124.375 539.1763,124.375 Q539.8794,124.375 540.52,124.5313 Q541.1763,124.6875 541.7388,124.9844 L541.7388,127.7031 Q541.1138,127.125 540.52,126.8594 Q539.9263,126.5781 539.3013,126.5781 Q537.9575,126.5781 537.27,127.6563 Q536.5825,128.7188 536.5825,130.8125 Q536.5825,132.9063 537.27,133.9844 Q537.9575,135.0469 539.3013,135.0469 Q539.9263,135.0469 540.52,134.7813 Q541.1138,134.5 541.7388,133.9219 L541.7388,136.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94.4932"
+                  x="552.77" y="135.8467">PhysicalMove
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="524.77" x2="649.2632" y1="147" y2="147"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="524.77" x2="649.2632" y1="155" y2="155"/>
+        </g><!--class SpecialMove-->
+        <g class="entity" data-entity="SpecialMove" data-source-line="13" data-uid="ent0005" id="entity_SpecialMove">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="119.9854"
+                  x="1020.02" y="115"/>
+            <ellipse cx="1035.02" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1037.9888,136.6406 Q1037.4106,136.9375 1036.77,137.0781 Q1036.1294,137.2344 1035.4263,137.2344 Q1032.9263,137.2344 1031.5981,135.5938 Q1030.2856,133.9375 1030.2856,130.8125 Q1030.2856,127.6875 1031.5981,126.0313 Q1032.9263,124.375 1035.4263,124.375 Q1036.1294,124.375 1036.77,124.5313 Q1037.4263,124.6875 1037.9888,124.9844 L1037.9888,127.7031 Q1037.3638,127.125 1036.77,126.8594 Q1036.1763,126.5781 1035.5513,126.5781 Q1034.2075,126.5781 1033.52,127.6563 Q1032.8325,128.7188 1032.8325,130.8125 Q1032.8325,132.9063 1033.52,133.9844 Q1034.2075,135.0469 1035.5513,135.0469 Q1036.1763,135.0469 1036.77,134.7813 Q1037.3638,134.5 1037.9888,133.9219 L1037.9888,136.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87.9854"
+                  x="1049.02" y="135.8467">SpecialMove
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1021.02" x2="1139.0054" y1="147" y2="147"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1021.02" x2="1139.0054" y1="155" y2="155"/>
+        </g><!--class StatusMove-->
+        <g class="entity" data-entity="StatusMove" data-source-line="16" data-uid="ent0006" id="entity_StatusMove">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114.1543"
+                  x="1467.94" y="115"/>
+            <ellipse cx="1482.94" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1485.9088,136.6406 Q1485.3306,136.9375 1484.69,137.0781 Q1484.0494,137.2344 1483.3463,137.2344 Q1480.8463,137.2344 1479.5181,135.5938 Q1478.2056,133.9375 1478.2056,130.8125 Q1478.2056,127.6875 1479.5181,126.0313 Q1480.8463,124.375 1483.3463,124.375 Q1484.0494,124.375 1484.69,124.5313 Q1485.3463,124.6875 1485.9088,124.9844 L1485.9088,127.7031 Q1485.2838,127.125 1484.69,126.8594 Q1484.0963,126.5781 1483.4713,126.5781 Q1482.1275,126.5781 1481.44,127.6563 Q1480.7525,128.7188 1480.7525,130.8125 Q1480.7525,132.9063 1481.44,133.9844 Q1482.1275,135.0469 1483.4713,135.0469 Q1484.0963,135.0469 1484.69,134.7813 Q1485.2838,134.5 1485.9088,133.9219 L1485.9088,136.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.1543"
+                  x="1496.94" y="135.8467">StatusMove
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1468.94" x2="1581.0943" y1="147" y2="147"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1468.94" x2="1581.0943" y1="155" y2="155"/>
+        </g><!--class AerialAce-->
+        <g class="entity" data-entity="AerialAce" data-source-line="25" data-uid="ent0010" id="entity_AerialAce">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98.1924"
+                  x="278.92" y="223"/>
+            <ellipse cx="293.92" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M296.8888,244.6406 Q296.3106,244.9375 295.67,245.0781 Q295.0294,245.2344 294.3263,245.2344 Q291.8263,245.2344 290.4981,243.5938 Q289.1856,241.9375 289.1856,238.8125 Q289.1856,235.6875 290.4981,234.0313 Q291.8263,232.375 294.3263,232.375 Q295.0294,232.375 295.67,232.5313 Q296.3263,232.6875 296.8888,232.9844 L296.8888,235.7031 Q296.2638,235.125 295.67,234.8594 Q295.0763,234.5781 294.4513,234.5781 Q293.1075,234.5781 292.42,235.6563 Q291.7325,236.7188 291.7325,238.8125 Q291.7325,240.9063 292.42,241.9844 Q293.1075,243.0469 294.4513,243.0469 Q295.0763,243.0469 295.67,242.7813 Q296.2638,242.5 296.8888,241.9219 L296.8888,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66.1924"
+                  x="307.92" y="243.8467">AerialAce
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="279.92" x2="376.1124" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="279.92" x2="376.1124" y1="263" y2="263"/>
+        </g><!--class AirSlash-->
+        <g class="entity" data-entity="AirSlash" data-source-line="26" data-uid="ent0012" id="entity_AirSlash">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88.7451"
+                  x="816.65" y="223"/>
+            <ellipse cx="831.65" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M834.6188,244.6406 Q834.0406,244.9375 833.4,245.0781 Q832.7594,245.2344 832.0563,245.2344 Q829.5563,245.2344 828.2281,243.5938 Q826.9156,241.9375 826.9156,238.8125 Q826.9156,235.6875 828.2281,234.0313 Q829.5563,232.375 832.0563,232.375 Q832.7594,232.375 833.4,232.5313 Q834.0563,232.6875 834.6188,232.9844 L834.6188,235.7031 Q833.9938,235.125 833.4,234.8594 Q832.8063,234.5781 832.1813,234.5781 Q830.8375,234.5781 830.15,235.6563 Q829.4625,236.7188 829.4625,238.8125 Q829.4625,240.9063 830.15,241.9844 Q830.8375,243.0469 832.1813,243.0469 Q832.8063,243.0469 833.4,242.7813 Q833.9938,242.5 834.6188,241.9219 L834.6188,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56.7451"
+                  x="845.65" y="243.8467">AirSlash
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="817.65" x2="904.3951" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="817.65" x2="904.3951" y1="263" y2="263"/>
+        </g><!--class AncientPower-->
+        <g class="entity" data-entity="AncientPower" data-source-line="27" data-uid="ent0014" id="entity_AncientPower">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="127.8398"
+                  x="940.1" y="223"/>
+            <ellipse cx="955.1" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M958.0688,244.6406 Q957.4906,244.9375 956.85,245.0781 Q956.2094,245.2344 955.5063,245.2344 Q953.0063,245.2344 951.6781,243.5938 Q950.3656,241.9375 950.3656,238.8125 Q950.3656,235.6875 951.6781,234.0313 Q953.0063,232.375 955.5063,232.375 Q956.2094,232.375 956.85,232.5313 Q957.5063,232.6875 958.0688,232.9844 L958.0688,235.7031 Q957.4438,235.125 956.85,234.8594 Q956.2563,234.5781 955.6313,234.5781 Q954.2875,234.5781 953.6,235.6563 Q952.9125,236.7188 952.9125,238.8125 Q952.9125,240.9063 953.6,241.9844 Q954.2875,243.0469 955.6313,243.0469 Q956.2563,243.0469 956.85,242.7813 Q957.4438,242.5 958.0688,241.9219 L958.0688,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95.8398"
+                  x="969.1" y="243.8467">AncientPower
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="941.1" x2="1066.9398" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="941.1" x2="1066.9398" y1="263" y2="263"/>
+        </g><!--class DoubleTeam-->
+        <g class="entity" data-entity="DoubleTeam" data-source-line="28" data-uid="ent0016" id="entity_DoubleTeam">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="120.9902"
+                  x="1393.52" y="223"/>
+            <ellipse cx="1408.52" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1411.4888,244.6406 Q1410.9106,244.9375 1410.27,245.0781 Q1409.6294,245.2344 1408.9263,245.2344 Q1406.4263,245.2344 1405.0981,243.5938 Q1403.7856,241.9375 1403.7856,238.8125 Q1403.7856,235.6875 1405.0981,234.0313 Q1406.4263,232.375 1408.9263,232.375 Q1409.6294,232.375 1410.27,232.5313 Q1410.9263,232.6875 1411.4888,232.9844 L1411.4888,235.7031 Q1410.8638,235.125 1410.27,234.8594 Q1409.6763,234.5781 1409.0513,234.5781 Q1407.7075,234.5781 1407.02,235.6563 Q1406.3325,236.7188 1406.3325,238.8125 Q1406.3325,240.9063 1407.02,241.9844 Q1407.7075,243.0469 1409.0513,243.0469 Q1409.6763,243.0469 1410.27,242.7813 Q1410.8638,242.5 1411.4888,241.9219 L1411.4888,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88.9902"
+                  x="1422.52" y="243.8467">DoubleTeam
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1394.52" x2="1513.5102" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1394.52" x2="1513.5102" y1="263" y2="263"/>
+        </g><!--class Facade-->
+        <g class="entity" data-entity="Facade" data-source-line="29" data-uid="ent0018" id="entity_Facade">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="82.4082"
+                  x="411.81" y="223"/>
+            <ellipse cx="426.81" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M429.7788,244.6406 Q429.2006,244.9375 428.56,245.0781 Q427.9194,245.2344 427.2163,245.2344 Q424.7163,245.2344 423.3881,243.5938 Q422.0756,241.9375 422.0756,238.8125 Q422.0756,235.6875 423.3881,234.0313 Q424.7163,232.375 427.2163,232.375 Q427.9194,232.375 428.56,232.5313 Q429.2163,232.6875 429.7788,232.9844 L429.7788,235.7031 Q429.1538,235.125 428.56,234.8594 Q427.9663,234.5781 427.3413,234.5781 Q425.9975,234.5781 425.31,235.6563 Q424.6225,236.7188 424.6225,238.8125 Q424.6225,240.9063 425.31,241.9844 Q425.9975,243.0469 427.3413,243.0469 Q427.9663,243.0469 428.56,242.7813 Q429.1538,242.5 429.7788,241.9219 L429.7788,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50.4082"
+                  x="440.81" y="243.8467">Facade
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="412.81" x2="493.2182" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="412.81" x2="493.2182" y1="263" y2="263"/>
+        </g><!--class FocusBlast-->
+        <g class="entity" data-entity="FocusBlast" data-source-line="30" data-uid="ent0020" id="entity_FocusBlast">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="107.3389"
+                  x="1103.35" y="223"/>
+            <ellipse cx="1118.35" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1121.3188,244.6406 Q1120.7406,244.9375 1120.1,245.0781 Q1119.4594,245.2344 1118.7563,245.2344 Q1116.2563,245.2344 1114.9281,243.5938 Q1113.6156,241.9375 1113.6156,238.8125 Q1113.6156,235.6875 1114.9281,234.0313 Q1116.2563,232.375 1118.7563,232.375 Q1119.4594,232.375 1120.1,232.5313 Q1120.7563,232.6875 1121.3188,232.9844 L1121.3188,235.7031 Q1120.6938,235.125 1120.1,234.8594 Q1119.5063,234.5781 1118.8813,234.5781 Q1117.5375,234.5781 1116.85,235.6563 Q1116.1625,236.7188 1116.1625,238.8125 Q1116.1625,240.9063 1116.85,241.9844 Q1117.5375,243.0469 1118.8813,243.0469 Q1119.5063,243.0469 1120.1,242.7813 Q1120.6938,242.5 1121.3188,241.9219 L1121.3188,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75.3389"
+                  x="1132.35" y="243.8467">FocusBlast
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1104.35" x2="1209.6889" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1104.35" x2="1209.6889" y1="263" y2="263"/>
+        </g><!--class HeadSmash-->
+        <g class="entity" data-entity="HeadSmash" data-source-line="31" data-uid="ent0022" id="entity_HeadSmash">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115.877"
+                  x="529.08" y="223"/>
+            <ellipse cx="544.08" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M547.0488,244.6406 Q546.4706,244.9375 545.83,245.0781 Q545.1894,245.2344 544.4863,245.2344 Q541.9863,245.2344 540.6581,243.5938 Q539.3456,241.9375 539.3456,238.8125 Q539.3456,235.6875 540.6581,234.0313 Q541.9863,232.375 544.4863,232.375 Q545.1894,232.375 545.83,232.5313 Q546.4863,232.6875 547.0488,232.9844 L547.0488,235.7031 Q546.4238,235.125 545.83,234.8594 Q545.2363,234.5781 544.6113,234.5781 Q543.2675,234.5781 542.58,235.6563 Q541.8925,236.7188 541.8925,238.8125 Q541.8925,240.9063 542.58,241.9844 Q543.2675,243.0469 544.6113,243.0469 Q545.2363,243.0469 545.83,242.7813 Q546.4238,242.5 547.0488,241.9219 L547.0488,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83.877"
+                  x="558.08" y="243.8467">HeadSmash
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="530.08" x2="643.957" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="530.08" x2="643.957" y1="263" y2="263"/>
+        </g><!--class RazorLeaf-->
+        <g class="entity" data-entity="RazorLeaf" data-source-line="32" data-uid="ent0024" id="entity_RazorLeaf">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="101.8975"
+                  x="680.07" y="223"/>
+            <ellipse cx="695.07" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M698.0388,244.6406 Q697.4606,244.9375 696.82,245.0781 Q696.1794,245.2344 695.4763,245.2344 Q692.9763,245.2344 691.6481,243.5938 Q690.3356,241.9375 690.3356,238.8125 Q690.3356,235.6875 691.6481,234.0313 Q692.9763,232.375 695.4763,232.375 Q696.1794,232.375 696.82,232.5313 Q697.4763,232.6875 698.0388,232.9844 L698.0388,235.7031 Q697.4138,235.125 696.82,234.8594 Q696.2263,234.5781 695.6013,234.5781 Q694.2575,234.5781 693.57,235.6563 Q692.8825,236.7188 692.8825,238.8125 Q692.8825,240.9063 693.57,241.9844 Q694.2575,243.0469 695.6013,243.0469 Q696.2263,243.0469 696.82,242.7813 Q697.4138,242.5 698.0388,241.9219 L698.0388,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69.8975"
+                  x="709.07" y="243.8467">RazorLeaf
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="681.07" x2="780.9675" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="681.07" x2="780.9675" y1="263" y2="263"/>
+        </g><!--class ShadowBall-->
+        <g class="entity" data-entity="ShadowBall" data-source-line="33" data-uid="ent0026" id="entity_ShadowBall">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="113.2041"
+                  x="1245.42" y="223"/>
+            <ellipse cx="1260.42" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1263.3888,244.6406 Q1262.8106,244.9375 1262.17,245.0781 Q1261.5294,245.2344 1260.8263,245.2344 Q1258.3263,245.2344 1256.9981,243.5938 Q1255.6856,241.9375 1255.6856,238.8125 Q1255.6856,235.6875 1256.9981,234.0313 Q1258.3263,232.375 1260.8263,232.375 Q1261.5294,232.375 1262.17,232.5313 Q1262.8263,232.6875 1263.3888,232.9844 L1263.3888,235.7031 Q1262.7638,235.125 1262.17,234.8594 Q1261.5763,234.5781 1260.9513,234.5781 Q1259.6075,234.5781 1258.92,235.6563 Q1258.2325,236.7188 1258.2325,238.8125 Q1258.2325,240.9063 1258.92,241.9844 Q1259.6075,243.0469 1260.9513,243.0469 Q1261.5763,243.0469 1262.17,242.7813 Q1262.7638,242.5 1263.3888,241.9219 L1263.3888,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81.2041"
+                  x="1274.42" y="243.8467">ShadowBall
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1246.42" x2="1357.6241" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1246.42" x2="1357.6241" y1="263" y2="263"/>
+        </g><!--class Swagger-->
+        <g class="entity" data-entity="Swagger" data-source-line="34" data-uid="ent0028" id="entity_Swagger">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93.0586"
+                  x="1549.49" y="223"/>
+            <ellipse cx="1564.49" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1567.4588,244.6406 Q1566.8806,244.9375 1566.24,245.0781 Q1565.5994,245.2344 1564.8963,245.2344 Q1562.3963,245.2344 1561.0681,243.5938 Q1559.7556,241.9375 1559.7556,238.8125 Q1559.7556,235.6875 1561.0681,234.0313 Q1562.3963,232.375 1564.8963,232.375 Q1565.5994,232.375 1566.24,232.5313 Q1566.8963,232.6875 1567.4588,232.9844 L1567.4588,235.7031 Q1566.8338,235.125 1566.24,234.8594 Q1565.6463,234.5781 1565.0213,234.5781 Q1563.6775,234.5781 1562.99,235.6563 Q1562.3025,236.7188 1562.3025,238.8125 Q1562.3025,240.9063 1562.99,241.9844 Q1563.6775,243.0469 1565.0213,243.0469 Q1565.6463,243.0469 1566.24,242.7813 Q1566.8338,242.5 1567.4588,241.9219 L1567.4588,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61.0586"
+                  x="1578.49" y="243.8467">Swagger
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1550.49" x2="1641.5486" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1550.49" x2="1641.5486" y1="263" y2="263"/>
+        </g><!--class TeeterDance-->
+        <g class="entity" data-entity="TeeterDance" data-source-line="35" data-uid="ent0030" id="entity_TeeterDance">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122.1797"
+                  x="1677.93" y="223"/>
+            <ellipse cx="1692.93" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1695.8988,244.6406 Q1695.3206,244.9375 1694.68,245.0781 Q1694.0394,245.2344 1693.3363,245.2344 Q1690.8363,245.2344 1689.5081,243.5938 Q1688.1956,241.9375 1688.1956,238.8125 Q1688.1956,235.6875 1689.5081,234.0313 Q1690.8363,232.375 1693.3363,232.375 Q1694.0394,232.375 1694.68,232.5313 Q1695.3363,232.6875 1695.8988,232.9844 L1695.8988,235.7031 Q1695.2738,235.125 1694.68,234.8594 Q1694.0863,234.5781 1693.4613,234.5781 Q1692.1175,234.5781 1691.43,235.6563 Q1690.7425,236.7188 1690.7425,238.8125 Q1690.7425,240.9063 1691.43,241.9844 Q1692.1175,243.0469 1693.4613,243.0469 Q1694.0863,243.0469 1694.68,242.7813 Q1695.2738,242.5 1695.8988,241.9219 L1695.8988,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90.1797"
+                  x="1706.93" y="243.8467">TeeterDance
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1678.93" x2="1799.1097" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1678.93" x2="1799.1097" y1="263" y2="263"/>
+        </g><!--class Budew-->
+        <g class="entity" data-entity="Budew" data-source-line="38" data-uid="ent0032" id="entity_Budew">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="79.4277"
+                  x="19.3" y="115"/>
+            <ellipse cx="34.3" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M37.2688,136.6406 Q36.6906,136.9375 36.05,137.0781 Q35.4094,137.2344 34.7063,137.2344 Q32.2063,137.2344 30.8781,135.5938 Q29.5656,133.9375 29.5656,130.8125 Q29.5656,127.6875 30.8781,126.0313 Q32.2063,124.375 34.7063,124.375 Q35.4094,124.375 36.05,124.5313 Q36.7063,124.6875 37.2688,124.9844 L37.2688,127.7031 Q36.6438,127.125 36.05,126.8594 Q35.4563,126.5781 34.8313,126.5781 Q33.4875,126.5781 32.8,127.6563 Q32.1125,128.7188 32.1125,130.8125 Q32.1125,132.9063 32.8,133.9844 Q33.4875,135.0469 34.8313,135.0469 Q35.4563,135.0469 36.05,134.7813 Q36.6438,134.5 37.2688,133.9219 L37.2688,136.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47.4277"
+                  x="48.3" y="135.8467">Budew
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="20.3" x2="97.7277" y1="147" y2="147"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="20.3" x2="97.7277" y1="155" y2="155"/>
+        </g><!--class Roselia-->
+        <g class="entity" data-entity="Roselia" data-source-line="39" data-uid="ent0034" id="entity_Roselia">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="82.5586"
+                  x="14.74" y="223"/>
+            <ellipse cx="29.74" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M32.7088,244.6406 Q32.1306,244.9375 31.49,245.0781 Q30.8494,245.2344 30.1463,245.2344 Q27.6463,245.2344 26.3181,243.5938 Q25.0056,241.9375 25.0056,238.8125 Q25.0056,235.6875 26.3181,234.0313 Q27.6463,232.375 30.1463,232.375 Q30.8494,232.375 31.49,232.5313 Q32.1463,232.6875 32.7088,232.9844 L32.7088,235.7031 Q32.0838,235.125 31.49,234.8594 Q30.8963,234.5781 30.2713,234.5781 Q28.9275,234.5781 28.24,235.6563 Q27.5525,236.7188 27.5525,238.8125 Q27.5525,240.9063 28.24,241.9844 Q28.9275,243.0469 30.2713,243.0469 Q30.8963,243.0469 31.49,242.7813 Q32.0838,242.5 32.7088,241.9219 L32.7088,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50.5586"
+                  x="43.74" y="243.8467">Roselia
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="15.74" x2="96.2986" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="15.74" x2="96.2986" y1="263" y2="263"/>
+        </g><!--class Roserade-->
+        <g class="entity" data-entity="Roserade" data-source-line="40" data-uid="ent0036" id="entity_Roserade">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98.0352"
+                  x="7" y="331"/>
+            <ellipse cx="22" cy="347" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M24.9688,352.6406 Q24.3906,352.9375 23.75,353.0781 Q23.1094,353.2344 22.4063,353.2344 Q19.9063,353.2344 18.5781,351.5938 Q17.2656,349.9375 17.2656,346.8125 Q17.2656,343.6875 18.5781,342.0313 Q19.9063,340.375 22.4063,340.375 Q23.1094,340.375 23.75,340.5313 Q24.4063,340.6875 24.9688,340.9844 L24.9688,343.7031 Q24.3438,343.125 23.75,342.8594 Q23.1563,342.5781 22.5313,342.5781 Q21.1875,342.5781 20.5,343.6563 Q19.8125,344.7188 19.8125,346.8125 Q19.8125,348.9063 20.5,349.9844 Q21.1875,351.0469 22.5313,351.0469 Q23.1563,351.0469 23.75,350.7813 Q24.3438,350.5 24.9688,349.9219 L24.9688,352.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66.0352"
+                  x="36" y="351.8467">Roserade
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="104.0352" y1="363" y2="363"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="104.0352" y1="371" y2="371"/>
+        </g><!--class Cranidos-->
+        <g class="entity" data-entity="Cranidos" data-source-line="41" data-uid="ent0038" id="entity_Cranidos">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93.6191"
+                  x="136.21" y="115"/>
+            <ellipse cx="151.21" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M154.1788,136.6406 Q153.6006,136.9375 152.96,137.0781 Q152.3194,137.2344 151.6163,137.2344 Q149.1163,137.2344 147.7881,135.5938 Q146.4756,133.9375 146.4756,130.8125 Q146.4756,127.6875 147.7881,126.0313 Q149.1163,124.375 151.6163,124.375 Q152.3194,124.375 152.96,124.5313 Q153.6163,124.6875 154.1788,124.9844 L154.1788,127.7031 Q153.5538,127.125 152.96,126.8594 Q152.3663,126.5781 151.7413,126.5781 Q150.3975,126.5781 149.71,127.6563 Q149.0225,128.7188 149.0225,130.8125 Q149.0225,132.9063 149.71,133.9844 Q150.3975,135.0469 151.7413,135.0469 Q152.3663,135.0469 152.96,134.7813 Q153.5538,134.5 154.1788,133.9219 L154.1788,136.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61.6191"
+                  x="165.21" y="135.8467">Cranidos
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="137.21" x2="228.8291" y1="147" y2="147"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="137.21" x2="228.8291" y1="155" y2="155"/>
+        </g><!--class Rampardos-->
+        <g class="entity" data-entity="Rampardos" data-source-line="42" data-uid="ent0040" id="entity_Rampardos">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="111.9121"
+                  x="132.06" y="223"/>
+            <ellipse cx="147.06" cy="239" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M150.0288,244.6406 Q149.4506,244.9375 148.81,245.0781 Q148.1694,245.2344 147.4663,245.2344 Q144.9663,245.2344 143.6381,243.5938 Q142.3256,241.9375 142.3256,238.8125 Q142.3256,235.6875 143.6381,234.0313 Q144.9663,232.375 147.4663,232.375 Q148.1694,232.375 148.81,232.5313 Q149.4663,232.6875 150.0288,232.9844 L150.0288,235.7031 Q149.4038,235.125 148.81,234.8594 Q148.2163,234.5781 147.5913,234.5781 Q146.2475,234.5781 145.56,235.6563 Q144.8725,236.7188 144.8725,238.8125 Q144.8725,240.9063 145.56,241.9844 Q146.2475,243.0469 147.5913,243.0469 Q148.2163,243.0469 148.81,242.7813 Q149.4038,242.5 150.0288,241.9219 L150.0288,244.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79.9121"
+                  x="161.06" y="243.8467">Rampardos
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="133.06" x2="242.9721" y1="255" y2="255"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="133.06" x2="242.9721" y1="263" y2="263"/>
+        </g><!--class OricorioPomPom-->
+        <g class="entity" data-entity="OricorioPomPom" data-source-line="43" data-uid="ent0042"
+           id="entity_OricorioPomPom">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="148.4297"
+                  x="264.8" y="115"/>
+            <ellipse cx="279.8" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M282.7688,136.6406 Q282.1906,136.9375 281.55,137.0781 Q280.9094,137.2344 280.2063,137.2344 Q277.7063,137.2344 276.3781,135.5938 Q275.0656,133.9375 275.0656,130.8125 Q275.0656,127.6875 276.3781,126.0313 Q277.7063,124.375 280.2063,124.375 Q280.9094,124.375 281.55,124.5313 Q282.2063,124.6875 282.7688,124.9844 L282.7688,127.7031 Q282.1438,127.125 281.55,126.8594 Q280.9563,126.5781 280.3313,126.5781 Q278.9875,126.5781 278.3,127.6563 Q277.6125,128.7188 277.6125,130.8125 Q277.6125,132.9063 278.3,133.9844 Q278.9875,135.0469 280.3313,135.0469 Q280.9563,135.0469 281.55,134.7813 Q282.1438,134.5 282.7688,133.9219 L282.7688,136.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116.4297"
+                  x="293.8" y="135.8467">OricorioPomPom
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="265.8" x2="412.2297" y1="147" y2="147"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="265.8" x2="412.2297" y1="155" y2="155"/>
+        </g><!--reverse link Move to PhysicalMove-->
+        <g class="link" data-entity-1="Move" data-entity-2="PhysicalMove" data-source-line="20" data-uid="lnk7"
+           id="link_Move_PhysicalMove">
+            <path codeLine="20" d="M1027.362,43.3228 C944.972,61.0328 755.71,101.73 650.54,124.34" fill="none"
+                  id="Move-backto-PhysicalMove" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1044.96,39.54,1026.101,37.4567,1028.6229,49.1888,1044.96,39.54"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link Move to SpecialMove-->
+        <g class="link" data-entity-1="Move" data-entity-2="SpecialMove" data-source-line="21" data-uid="lnk8"
+           id="link_Move_SpecialMove">
+            <path codeLine="21" d="M1080.02,73.26 C1080.02,90.94 1080.02,97.13 1080.02,114.79" fill="none"
+                  id="Move-backto-SpecialMove" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1080.02,55.26,1074.02,73.26,1086.02,73.26,1080.02,55.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link Move to StatusMove-->
+        <g class="link" data-entity-1="Move" data-entity-2="StatusMove" data-source-line="22" data-uid="lnk9"
+           id="link_Move_StatusMove">
+            <path codeLine="22" d="M1132.4503,44.4902 C1208.8703,62.6902 1374.08,102.05 1467.65,124.34" fill="none"
+                  id="Move-backto-StatusMove" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1114.94,40.32,1131.0602,50.327,1133.8403,38.6534,1114.94,40.32"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link PhysicalMove to AerialAce-->
+        <g class="link" data-entity-1="PhysicalMove" data-entity-2="AerialAce" data-source-line="25" data-uid="lnk11"
+           id="link_PhysicalMove_AerialAce">
+            <path codeLine="25" d="M513.2014,170.2084 C467.6114,188.8684 421.08,207.91 377.61,225.7" fill="none"
+                  id="PhysicalMove-backto-AerialAce" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="529.86,163.39,510.9286,164.6555,515.4742,175.7613,529.86,163.39"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link SpecialMove to AirSlash-->
+        <g class="link" data-entity-1="SpecialMove" data-entity-2="AirSlash" data-source-line="26" data-uid="lnk13"
+           id="link_SpecialMove_AirSlash">
+            <path codeLine="26" d="M1015.4881,171.232 C977.9481,189.402 942.49,206.57 905.87,224.29" fill="none"
+                  id="SpecialMove-backto-AirSlash" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1031.69,163.39,1012.8741,165.8314,1018.1021,176.6327,1031.69,163.39"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link SpecialMove to AncientPower-->
+        <g class="link" data-entity-1="SpecialMove" data-entity-2="AncientPower" data-source-line="27" data-uid="lnk15"
+           id="link_SpecialMove_AncientPower">
+            <path codeLine="27" d="M1052.855,177.891 C1040.185,195.571 1033.32,205.13 1020.66,222.79" fill="none"
+                  id="SpecialMove-backto-AncientPower" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1063.34,163.26,1047.978,174.396,1057.732,181.386,1063.34,163.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link StatusMove to DoubleTeam-->
+        <g class="link" data-entity-1="StatusMove" data-entity-2="DoubleTeam" data-source-line="28" data-uid="lnk17"
+           id="link_StatusMove_DoubleTeam">
+            <path codeLine="28" d="M1499.4242,178.216 C1487.5842,195.896 1481.39,205.13 1469.56,222.79" fill="none"
+                  id="StatusMove-backto-DoubleTeam" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1509.44,163.26,1494.4388,174.8774,1504.4095,181.5547,1509.44,163.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link PhysicalMove to Facade-->
+        <g class="link" data-entity-1="PhysicalMove" data-entity-2="Facade" data-source-line="29" data-uid="lnk19"
+           id="link_PhysicalMove_Facade">
+            <path codeLine="29" d="M543.4954,174.4304 C521.1554,192.1104 504.68,205.13 482.36,222.79" fill="none"
+                  id="PhysicalMove-backto-Facade" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="557.61,163.26,539.7719,169.7255,547.2188,179.1353,557.61,163.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link SpecialMove to FocusBlast-->
+        <g class="link" data-entity-1="SpecialMove" data-entity-2="FocusBlast" data-source-line="30" data-uid="lnk21"
+           id="link_SpecialMove_FocusBlast">
+            <path codeLine="30" d="M1107.4919,177.8283 C1120.3219,195.5083 1127.33,205.13 1140.16,222.79" fill="none"
+                  id="SpecialMove-backto-FocusBlast" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1096.92,163.26,1102.6358,181.3523,1112.348,174.3043,1096.92,163.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link PhysicalMove to HeadSmash-->
+        <g class="link" data-entity-1="PhysicalMove" data-entity-2="HeadSmash" data-source-line="31" data-uid="lnk23"
+           id="link_PhysicalMove_HeadSmash">
+            <path codeLine="31" d="M587.02,181.26 C587.02,198.94 587.02,205.13 587.02,222.79" fill="none"
+                  id="PhysicalMove-backto-HeadSmash" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="587.02,163.26,581.02,181.26,593.02,181.26,587.02,163.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link PhysicalMove to RazorLeaf-->
+        <g class="link" data-entity-1="PhysicalMove" data-entity-2="RazorLeaf" data-source-line="32" data-uid="lnk25"
+           id="link_PhysicalMove_RazorLeaf">
+            <path codeLine="32" d="M633.1143,173.9331 C657.1243,191.6131 675.5,205.13 699.49,222.79" fill="none"
+                  id="PhysicalMove-backto-RazorLeaf" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="618.62,163.26,629.5567,178.7645,636.672,169.1016,618.62,163.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link SpecialMove to ShadowBall-->
+        <g class="link" data-entity-1="SpecialMove" data-entity-2="ShadowBall" data-source-line="33" data-uid="lnk27"
+           id="link_SpecialMove_ShadowBall">
+            <path codeLine="33" d="M1145.2532,171.1462 C1182.1532,188.7662 1216.28,205.06 1253.15,222.67" fill="none"
+                  id="SpecialMove-backto-ShadowBall" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1129.01,163.39,1142.6678,176.5606,1147.8386,165.7318,1129.01,163.39"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link StatusMove to Swagger-->
+        <g class="link" data-entity-1="StatusMove" data-entity-2="Swagger" data-source-line="34" data-uid="lnk29"
+           id="link_StatusMove_Swagger">
+            <path codeLine="34" d="M1550.6158,178.216 C1562.4558,195.896 1568.64,205.13 1580.47,222.79" fill="none"
+                  id="StatusMove-backto-Swagger" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1540.6,163.26,1545.6305,181.5547,1555.6012,174.8774,1540.6,163.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link StatusMove to TeeterDance-->
+        <g class="link" data-entity-1="StatusMove" data-entity-2="TeeterDance" data-source-line="35" data-uid="lnk31"
+           id="link_StatusMove_TeeterDance">
+            <path codeLine="35" d="M1588.3795,171.3799 C1623.9495,188.9999 1656.37,205.06 1691.91,222.67" fill="none"
+                  id="StatusMove-backto-TeeterDance" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1572.25,163.39,1585.7162,176.7564,1591.0428,166.0034,1572.25,163.39"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link Pokemon to Budew-->
+        <g class="link" data-entity-1="Pokemon" data-entity-2="Budew" data-source-line="38" data-uid="lnk33"
+           id="link_Pokemon_Budew">
+            <path codeLine="38" d="M142.1284,66.9568 C121.4484,84.6368 106.83,97.13 86.17,114.79" fill="none"
+                  id="Pokemon-backto-Budew" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="155.81,55.26,138.2295,62.3963,146.0274,71.5173,155.81,55.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link Budew to Roselia-->
+        <g class="link" data-entity-1="Budew" data-entity-2="Roselia" data-source-line="39" data-uid="lnk35"
+           id="link_Budew_Roselia">
+            <path codeLine="39" d="M57.8512,181.2528 C57.3512,198.9328 57.17,205.13 56.67,222.79" fill="none"
+                  id="Budew-backto-Roselia" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="58.36,163.26,51.8536,181.0832,63.8488,181.4224,58.36,163.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link Roselia to Roserade-->
+        <g class="link" data-entity-1="Roselia" data-entity-2="Roserade" data-source-line="40" data-uid="lnk37"
+           id="link_Roselia_Roserade">
+            <path codeLine="40" d="M56.02,289.26 C56.02,306.94 56.02,313.13 56.02,330.79" fill="none"
+                  id="Roselia-backto-Roserade" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="56.02,271.26,50.02,289.26,62.02,289.26,56.02,271.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link Pokemon to Cranidos-->
+        <g class="link" data-entity-1="Pokemon" data-entity-2="Cranidos" data-source-line="41" data-uid="lnk39"
+           id="link_Pokemon_Cranidos">
+            <path codeLine="41" d="M183.02,73.26 C183.02,90.94 183.02,97.13 183.02,114.79" fill="none"
+                  id="Pokemon-backto-Cranidos" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="183.02,55.26,177.02,73.26,189.02,73.26,183.02,55.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link Cranidos to Rampardos-->
+        <g class="link" data-entity-1="Cranidos" data-entity-2="Rampardos" data-source-line="42" data-uid="lnk41"
+           id="link_Cranidos_Rampardos">
+            <path codeLine="42" d="M184.9642,181.2397 C185.8042,198.9197 186.09,205.13 186.92,222.79" fill="none"
+                  id="Cranidos-backto-Rampardos" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="184.11,163.26,178.971,181.5245,190.9575,180.955,184.11,163.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link Pokemon to OricorioPomPom-->
+        <g class="link" data-entity-1="Pokemon" data-entity-2="OricorioPomPom" data-source-line="43" data-uid="lnk43"
+           id="link_Pokemon_OricorioPomPom">
+            <path codeLine="43" d="M232.1388,65.3755 C258.0588,82.9855 278.63,96.97 304.59,114.61" fill="none"
+                  id="Pokemon-backto-OricorioPomPom" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="217.25,55.26,228.767,70.3384,235.5107,60.4125,217.25,55.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--SRC=[RL9BJiCm4Dtx5DwnwWtOj5GL2n0HwGLSPsWjaapbk4Jyf589iIWIOiS6SOM2YAXQMgxWt8X9sjA4HhRi-8rdtfiN6-npWxo3nc30FQL16eKXOtlSFjkfVRTpMfVfo2RfWrsaOvjmEoDmajxH63FfYoZY3fv3W26_PhTi3HtZ1HJFJkyoKbBu_t6t3r9Lm4QOGRH5ISzhHahKYVsqI_jX9tP1sX9EugRs9uCutHWHFcDvulvDhLRYBS05sYBwnveplb7HUVfelrPycGlPcLJCSkQY4rlkKgTvsJfeugfBOCLkLo6bNMguLn49fOBGE1Y3PWKxyc0J1nqVsY222hgMaCAhu6gX74GDOZCLIOSWF3V8bEp6JiKLwYCGPxirtPxmC6u8tz_HwCQYswtGtWOme9iYb2kNN-Xj3SczONflf-aJp__bZAp-fdsHMSysxolFRmmyY5c-hkLX1BuIRBrlGPtPKCezq29K7aPiyx5fCEWBdU6bsoTQITGA7Gne_W80]-->
+    </g>
+</svg>
