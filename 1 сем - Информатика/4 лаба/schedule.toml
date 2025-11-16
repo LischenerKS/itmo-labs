@@ -1,0 +1,99 @@
+# Документ TOML.
+[schedule]
+	id = "501946"
+	[schedule.week1]
+		parity_check = "even"
+		[schedule.week1.tuesday]
+			[schedule.week1.tuesday.1]
+			time = "09:50 - 11:20" 
+			discipline = "Математический анализ"
+			type = "Лекция"
+			lecturer = "Попов Антон Игоревич"
+			classroom = "1405"
+			
+			[schedule.week1.tuesday.2]
+			time = "11:30 - 13:00" 
+			discipline = "Математический анализ"
+			type = "Практика"
+			lecturer = "Попов Антон Игоревич"
+			classroom = "2316"
+
+			[schedule.week1.tuesday.3]
+			time = "13:30 - 15:00" 
+			discipline = "Алгебра и алгоритмы"
+			type = "Лекция"
+			lecturer = "Попов Антон Игоревич"
+			classroom = "1405"
+			
+			[schedule.week1.tuesday.4]
+			time = "15:30 - 17:00" 
+			discipline = "Алгебра и алгоритмы"
+			type = "Практика"
+			lecturer = "Попов Антон Игоревич"
+			classroom = "2316"
+			
+		[schedule.week1.thursday]
+			[schedule.week1.thursday.1]
+			time = "11:30 - 13:00" 
+			discipline = "История российской науки и техники"
+			type = "Практика"
+			lecturer = "Васильев Андрей Владимирович"
+			classroom = "2326"
+			
+			[schedule.week1.thursday.2]
+				time = "13:30 - 15:00" 
+				discipline = "История российской науки и техники"
+				type = "Лекция"
+				lecturer = "Васильев Андрей Владимирович"
+				classroom = "1404"
+	[schedule.week2]
+		parity_check = "odd"
+		[schedule.week2.tuesday]
+			[schedule.week2.tuesday.1]
+			time = "09:50 - 11:20" 
+			discipline = "Математический анализ"
+			type = "Лекция"
+			lecturer = "Попов Антон Игоревич"
+			classroom = "1405"
+			
+			[schedule.week2.tuesday.2]
+			time = "11:30 - 13:00" 
+			discipline = "Математический анализ"
+			type = "Практика"
+			lecturer = "Попов Антон Игоревич"
+			classroom = "2316"
+
+			[schedule.week2.tuesday.3]
+			time = "13:30 - 15:00" 
+			discipline = "Алгебра и алгоритмы"
+			type = "Лекция"
+			lecturer = "Попов Антон Игоревич"
+			classroom = "1405"
+			
+			[schedule.week2.tuesday.4]
+			time = "15:30 - 17:00" 
+			discipline = "Алгебра и алгоритмы"
+			type = "Практика"
+			lecturer = "Попов Антон Игоревич"
+			classroom = "2316"
+		[schedule.week2.thursday]
+			[schedule.week2.thursday.1]
+			time = "08:10 - 09:40" 
+			discipline = "Программирование"
+			type = "Лабораторная"
+			lecturer = "Бобрусь Александр Владимирович"
+			classroom = "1333"
+			
+			[schedule.week2.thursday.2]
+			time = "09:50 - 11:20"
+			discipline = "Программирование" # dawddaddawdwaaw
+			type = "Лабораторная" # awdawdawdada dawaw
+			lecturer = "Бобрусь Александр Владимирович"# adawdawdawdawdawdaw
+            #dawdawdawdwsdadadawd
+            #awdawdawdawdaw
+            classroom = "1333"
+			
+
+
+
+
