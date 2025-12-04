@@ -1,0 +1,65 @@
+@startuml
+top to bottom direction
+skinparam linetype ortho
+
+class RuntimeException
+class BigCommotionException
+class BrickToHeadHit {
+  # doApply(Person): void
+  # message(Person): void
+}
+interface LivingEntity << interface >> {
+  + applySleepinessReason(SleepinessReason): void
+  + isAlive(): void
+  + sleep(int, Place): void
+}
+class Main {
+  + main(String[]): void
+}
+class Person {
+  + applySleepinessReason(SleepinessReason): void
+  + equals(Object): boolean
+  + getHp(): int
+  + getName(): String
+  + getSleepiness(): int
+  + hashCode(): int
+  + isAlive(): void
+  + setHp(int): void
+  + setSleepiness(int): void
+  + sleep(int, Place): void
+  + toString(): String
+}
+class PersonIsDeadException
+enum Place << enumeration >> {
+  + valueOf(String): Place
+  + values(): Place[]
+}
+entity Situation << record >> {
+  + current_time(): int
+  + name(): String
+  + place(): Place
+}
+abstract class SleepinessReason {
+  + apply(Person): void
+  # doApply(Person): void
+  # message(Person): void
+}
+class UnknownReason {
+  # doApply(Person): void
+  # message(Person): void
+}
+
+BrickToHeadHit         -[#000082,plain]-^  SleepinessReason      
+Person                 -[#008200,dashed]-^  LivingEntity          
+UnknownReason          -[#000082,plain]-^  SleepinessReason
+
+BigCommotionException-[#000082,plain]-^  RuntimeException
+PersonIsDeadException-[#000082,plain]-^  RuntimeException
+
+Main                   -[#595959,dashed]->  BrickToHeadHit        : "«create»"
+Main                   -[#595959,dashed]->  Person                : "«create»"
+Main                   -[#595959,dashed]->  Situation             : "«create»"
+Main                   -[#595959,dashed]->  UnknownReason         : "«create»"
+Person                 -[#595959,dashed]->  BigCommotionException : "«throws»"
+Person                 -[#595959,dashed]->  PersonIsDeadException : "«throws»"
+@enduml
