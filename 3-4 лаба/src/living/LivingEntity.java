@@ -3,15 +3,20 @@ package living;
 import exceptions.EntityIsDeadException;
 import sleepiness.SleepinessReason;
 
+abstract public class LivingEntity {
+    protected String name;
+    protected int hp;
+    protected int sleepiness;
 
-public interface LivingEntity {
-    void applySleepinessReason(SleepinessReason reason);
+    abstract public void applySleepinessReason(SleepinessReason reason);
 
-    void isAlive() throws EntityIsDeadException;
+    abstract public void isAlive() throws EntityIsDeadException;
 
-    String getName();
+    final public String getName() {
+        return this.name;
+    }
 
-    int getSleepiness();
-
-
+    final public int getSleepiness() {
+        return this.sleepiness;
+    }
 }
