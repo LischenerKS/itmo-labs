@@ -6,7 +6,7 @@ import living.LivingEntity;
 
 public abstract class Place {
     public void shoutHere(LivingEntity ent) {
-        System.out.printf("%s кричит!%т", ent.getName());
+        System.out.printf("%s кричит!%n", ent.getName());
     }
 
     final protected void calculateSleep(int current_time, LivingEntity entity) {
