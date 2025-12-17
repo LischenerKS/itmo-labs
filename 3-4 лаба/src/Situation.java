@@ -2,7 +2,9 @@ import items.Fallable;
 import living.LivingEntity;
 import places.Place;
 
-public record Situation(LivingEntity ent, Fallable[] FallingItems, int currentTime, Place place) {
+import java.time.LocalDateTime;
+
+public record Situation(LivingEntity ent, Fallable[] FallingItems, LocalDateTime currentTime, Place place) {
     public void runSituation() {
 
         for(Fallable item : this.FallingItems) {
