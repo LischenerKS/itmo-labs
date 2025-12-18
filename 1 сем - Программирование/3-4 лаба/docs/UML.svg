@@ -1,1 +1,427 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="CLASS" height="663px" preserveAspectRatio="none" style="width:1252px;height:663px;background:#FFFFFF;" version="1.1" viewBox="0 0 1252 663" width="1252px" zoomAndPan="magnify"><defs/><g><!--class RuntimeException--><g class="entity" data-entity="RuntimeException" data-source-line="4" data-uid="ent0002" id="entity_RuntimeException"><rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="160.249" x="348.14" y="608.28"/><ellipse cx="363.14" cy="624.28" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/><path d="M366.1088,629.9206 Q365.5306,630.2175 364.89,630.3581 Q364.2494,630.5144 363.5463,630.5144 Q361.0463,630.5144 359.7181,628.8738 Q358.4056,627.2175 358.4056,624.0925 Q358.4056,620.9675 359.7181,619.3113 Q361.0463,617.655 363.5463,617.655 Q364.2494,617.655 364.89,617.8113 Q365.5463,617.9675 366.1088,618.2644 L366.1088,620.9831 Q365.4838,620.405 364.89,620.1394 Q364.2963,619.8581 363.6713,619.8581 Q362.3275,619.8581 361.64,620.9363 Q360.9525,621.9988 360.9525,624.0925 Q360.9525,626.1863 361.64,627.2644 Q362.3275,628.3269 363.6713,628.3269 Q364.2963,628.3269 364.89,628.0613 Q365.4838,627.78 366.1088,627.2019 L366.1088,629.9206 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128.249" x="377.14" y="629.1267">RuntimeException</text><line style="stroke:#181818;stroke-width:0.5;" x1="349.14" x2="507.389" y1="640.28" y2="640.28"/><line style="stroke:#181818;stroke-width:0.5;" x1="349.14" x2="507.389" y1="648.28" y2="648.28"/></g><!--class BigCommotionException--><g class="entity" data-entity="BigCommotionException" data-source-line="5" data-uid="ent0003" id="entity_BigCommotionException"><rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="204.5254" x="7" y="471.7"/><ellipse cx="22" cy="487.7" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/><path d="M24.9688,493.3406 Q24.3906,493.6375 23.75,493.7781 Q23.1094,493.9344 22.4063,493.9344 Q19.9063,493.9344 18.5781,492.2937 Q17.2656,490.6375 17.2656,487.5125 Q17.2656,484.3875 18.5781,482.7312 Q19.9063,481.075 22.4063,481.075 Q23.1094,481.075 23.75,481.2312 Q24.4063,481.3875 24.9688,481.6844 L24.9688,484.4031 Q24.3438,483.825 23.75,483.5594 Q23.1563,483.2781 22.5313,483.2781 Q21.1875,483.2781 20.5,484.3562 Q19.8125,485.4187 19.8125,487.5125 Q19.8125,489.6062 20.5,490.6844 Q21.1875,491.7469 22.5313,491.7469 Q23.1563,491.7469 23.75,491.4812 Q24.3438,491.2 24.9688,490.6219 L24.9688,493.3406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172.5254" x="36" y="492.5467">BigCommotionException</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="210.5254" y1="503.7" y2="503.7"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="210.5254" y1="511.7" y2="511.7"/></g><!--class BrickToHeadHit--><g class="entity" data-entity="BrickToHeadHit" data-source-line="6" data-uid="ent0004" id="entity_BrickToHeadHit"><rect fill="#F1F1F1" height="80.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="186.1797" x="649.17" y="229.19"/><ellipse cx="684.6428" cy="245.19" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/><path d="M687.6116,250.8306 Q687.0334,251.1275 686.3928,251.2681 Q685.7522,251.4244 685.0491,251.4244 Q682.5491,251.4244 681.2209,249.7838 Q679.9084,248.1275 679.9084,245.0025 Q679.9084,241.8775 681.2209,240.2213 Q682.5491,238.565 685.0491,238.565 Q685.7522,238.565 686.3928,238.7213 Q687.0491,238.8775 687.6116,239.1744 L687.6116,241.8931 Q686.9866,241.315 686.3928,241.0494 Q685.7991,240.7681 685.1741,240.7681 Q683.8303,240.7681 683.1428,241.8463 Q682.4553,242.9088 682.4553,245.0025 Q682.4553,247.0963 683.1428,248.1744 Q683.8303,249.2369 685.1741,249.2369 Q685.7991,249.2369 686.3928,248.9713 Q686.9866,248.69 687.6116,248.1119 L687.6116,250.8306 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108.6846" x="703.1923" y="250.0367">BrickToHeadHit</text><line style="stroke:#181818;stroke-width:0.5;" x1="650.17" x2="834.3497" y1="261.19" y2="261.19"/><line style="stroke:#181818;stroke-width:0.5;" x1="650.17" x2="834.3497" y1="269.19" y2="269.19"/><g data-visibility-modifier="PROTECTED_METHOD"><polygon fill="#FFFF44" points="660.17,277.8384,664.17,281.8384,660.17,285.8384,656.17,281.8384" style="stroke:#B38D22;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154.2393" x="669.17" y="286.1851">doApply(Person): void</text><g data-visibility-modifier="PROTECTED_METHOD"><polygon fill="#FFFF44" points="660.17,294.1353,664.17,298.1353,660.17,302.1353,656.17,298.1353" style="stroke:#B38D22;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160.1797" x="669.17" y="302.482">message(Person): void</text></g><!--class LivingEntity--><g class="entity" data-entity="LivingEntity" data-source-line="10" data-uid="ent0005" id="entity_LivingEntity"><rect fill="#F1F1F1" height="105.1563" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="367.2568" x="246.63" y="443.12"/><ellipse cx="384.7604" cy="463.2528" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/><path d="M380.6822,459.0184 L380.6822,456.8622 L388.0729,456.8622 L388.0729,459.0184 L385.6041,459.0184 L385.6041,467.0966 L388.0729,467.0966 L388.0729,469.2528 L380.6822,469.2528 L380.6822,467.0966 L383.151,467.0966 L383.151,459.0184 L380.6822,459.0184 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="68.2031" x="412.4069" y="459.2587">&#171;interface&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="82.4961" x="405.2604" y="475.0839">LivingEntity</text><line style="stroke:#181818;stroke-width:0.5;" x1="247.63" x2="612.8868" y1="483.3856" y2="483.3856"/><line style="stroke:#181818;stroke-width:0.5;" x1="247.63" x2="612.8868" y1="491.3856" y2="491.3856"/><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="505.0341" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="341.2568" x="266.63" y="508.3807">applySleepinessReason(SleepinessReason): void</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="521.3309" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95.1563" x="266.63" y="524.6776">isAlive(): void</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="537.6278" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151.3887" x="266.63" y="540.9745">sleep(int, Place): void</text></g><!--class Main--><g class="entity" data-entity="Main" data-source-line="15" data-uid="ent0006" id="entity_Main"><rect fill="#F1F1F1" height="64.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="163.4023" x="762.56" y="19.28"/><ellipse cx="823.3007" cy="35.28" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/><path d="M826.2695,40.9206 Q825.6913,41.2175 825.0507,41.3581 Q824.4101,41.5144 823.707,41.5144 Q821.207,41.5144 819.8788,39.8737 Q818.5663,38.2175 818.5663,35.0925 Q818.5663,31.9675 819.8788,30.3112 Q821.207,28.655 823.707,28.655 Q824.4101,28.655 825.0507,28.8112 Q825.707,28.9675 826.2695,29.2644 L826.2695,31.9831 Q825.6445,31.405 825.0507,31.1394 Q824.457,30.8581 823.832,30.8581 Q822.4882,30.8581 821.8007,31.9362 Q821.1132,32.9987 821.1132,35.0925 Q821.1132,37.1862 821.8007,38.2644 Q822.4882,39.3269 823.832,39.3269 Q824.457,39.3269 825.0507,39.0612 Q825.6445,38.78 826.2695,38.2019 L826.2695,40.9206 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33.4209" x="843.8007" y="40.1267">Main</text><line style="stroke:#181818;stroke-width:0.5;" x1="763.56" x2="924.9623" y1="51.28" y2="51.28"/><line style="stroke:#181818;stroke-width:0.5;" x1="763.56" x2="924.9623" y1="59.28" y2="59.28"/><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="773.56" cy="72.9284" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137.4023" x="782.56" y="76.2751">main(String[]): void</text></g><!--class Person--><g class="entity" data-entity="Person" data-source-line="18" data-uid="ent0007" id="entity_Person"><rect fill="#F1F1F1" height="227.2656" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="367.2568" x="246.63" y="155.86"/><ellipse cx="402.2364" cy="171.86" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/><path d="M405.2052,177.5006 Q404.6271,177.7975 403.9864,177.9381 Q403.3458,178.0944 402.6427,178.0944 Q400.1427,178.0944 398.8146,176.4537 Q397.5021,174.7975 397.5021,171.6725 Q397.5021,168.5475 398.8146,166.8912 Q400.1427,165.235 402.6427,165.235 Q403.3458,165.235 403.9864,165.3912 Q404.6427,165.5475 405.2052,165.8444 L405.2052,168.5631 Q404.5802,167.985 403.9864,167.7194 Q403.3927,167.4381 402.7677,167.4381 Q401.4239,167.4381 400.7364,168.5162 Q400.0489,169.5787 400.0489,171.6725 Q400.0489,173.7662 400.7364,174.8444 Q401.4239,175.9069 402.7677,175.9069 Q403.3927,175.9069 403.9864,175.6412 Q404.5802,175.36 405.2052,174.7819 L405.2052,177.5006 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47.5439" x="422.7364" y="176.7067">Person</text><line style="stroke:#181818;stroke-width:0.5;" x1="247.63" x2="612.8868" y1="187.86" y2="187.86"/><line style="stroke:#181818;stroke-width:0.5;" x1="247.63" x2="612.8868" y1="195.86" y2="195.86"/><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="209.5084" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="341.2568" x="266.63" y="212.8551">applySleepinessReason(SleepinessReason): void</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="225.8053" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167.7949" x="266.63" y="229.152">equals(Object): boolean</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="242.1022" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80.7461" x="266.63" y="245.4489">getHp(): int</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="258.3991" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126.1641" x="266.63" y="261.7457">getName(): String</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="274.6959" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136.1855" x="266.63" y="278.0426">getSleepiness(): int</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="290.9928" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107.8027" x="266.63" y="294.3395">hashCode(): int</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="307.2897" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95.1563" x="266.63" y="310.6364">isAlive(): void</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="323.5866" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108.7803" x="266.63" y="326.9332">setHp(int): void</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="339.8834" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164.2197" x="266.63" y="343.2301">setSleepiness(int): void</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="356.1803" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151.3887" x="266.63" y="359.527">sleep(int, Place): void</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="257.63" cy="372.4772" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117.708" x="266.63" y="375.8239">toString(): String</text></g><!--class PersonIsDeadException--><g class="entity" data-entity="PersonIsDeadException" data-source-line="31" data-uid="ent0008" id="entity_PersonIsDeadException"><rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="196.9717" x="648.78" y="471.7"/><ellipse cx="663.78" cy="487.7" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/><path d="M666.7488,493.3406 Q666.1706,493.6375 665.53,493.7781 Q664.8894,493.9344 664.1863,493.9344 Q661.6863,493.9344 660.3581,492.2937 Q659.0456,490.6375 659.0456,487.5125 Q659.0456,484.3875 660.3581,482.7312 Q661.6863,481.075 664.1863,481.075 Q664.8894,481.075 665.53,481.2312 Q666.1863,481.3875 666.7488,481.6844 L666.7488,484.4031 Q666.1238,483.825 665.53,483.5594 Q664.9363,483.2781 664.3113,483.2781 Q662.9675,483.2781 662.28,484.3562 Q661.5925,485.4187 661.5925,487.5125 Q661.5925,489.6062 662.28,490.6844 Q662.9675,491.7469 664.3113,491.7469 Q664.9363,491.7469 665.53,491.4812 Q666.1238,491.2 666.7488,490.6219 L666.7488,493.3406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164.9717" x="677.78" y="492.5467">PersonIsDeadException</text><line style="stroke:#181818;stroke-width:0.5;" x1="649.78" x2="844.7517" y1="503.7" y2="503.7"/><line style="stroke:#181818;stroke-width:0.5;" x1="649.78" x2="844.7517" y1="511.7" y2="511.7"/></g><!--class Place--><g class="entity" data-entity="Place" data-source-line="32" data-uid="ent0009" id="entity_Place"><rect fill="#F1F1F1" height="88.8594" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="179.2822" x="960.62" y="7"/><ellipse cx="1002.4666" cy="27.1328" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/><path d="M1006.576,33.1328 L998.8573,33.1328 L998.8573,20.7422 L1006.576,20.7422 L1006.576,22.8984 L1001.3104,22.8984 L1001.3104,25.5703 L1006.076,25.5703 L1006.076,27.7266 L1001.3104,27.7266 L1001.3104,30.9766 L1006.576,30.9766 L1006.576,33.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="91.623" x="1020.4325" y="23.1387">&#171;enumeration&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37.2217" x="1047.6332" y="38.9639">Place</text><line style="stroke:#181818;stroke-width:0.5;" x1="961.62" x2="1138.9022" y1="47.2656" y2="47.2656"/><line style="stroke:#181818;stroke-width:0.5;" x1="961.62" x2="1138.9022" y1="55.2656" y2="55.2656"/><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="971.62" cy="68.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153.2822" x="980.62" y="72.2607">valueOf(String): Place</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="971.62" cy="85.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113.7705" x="980.62" y="88.5576">values(): Place[]</text></g><!--class Situation--><g class="entity" data-entity="Situation" data-source-line="36" data-uid="ent0010" id="entity_Situation"><rect fill="#F1F1F1" height="105.1563" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="154.0303" x="870.25" y="216.91"/><ellipse cx="912.0228" cy="237.0428" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/><path d="M916.1322,243.0428 L908.4134,243.0428 L908.4134,230.6522 L916.1322,230.6522 L916.1322,232.8084 L910.8666,232.8084 L910.8666,235.4803 L915.6322,235.4803 L915.6322,237.6366 L910.8666,237.6366 L910.8666,240.8866 L916.1322,240.8866 L916.1322,243.0428 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="53.4902" x="936.4948" y="233.0487">&#171;record&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62.5352" x="931.9723" y="248.8739">Situation</text><line style="stroke:#181818;stroke-width:0.5;" x1="871.25" x2="1023.2803" y1="257.1756" y2="257.1756"/><line style="stroke:#181818;stroke-width:0.5;" x1="871.25" x2="1023.2803" y1="265.1756" y2="265.1756"/><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="881.25" cy="278.8241" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128.0303" x="890.25" y="282.1707">current_time(): int</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="881.25" cy="295.1209" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101.5752" x="890.25" y="298.4676">name(): String</text><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="881.25" cy="311.4178" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94.9785" x="890.25" y="314.7645">place(): Place</text></g><!--class SleepinessReason--><g class="entity" data-entity="SleepinessReason" data-source-line="41" data-uid="ent0011" id="entity_SleepinessReason"><rect fill="#F1F1F1" height="96.8906" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="186.1797" x="970.17" y="447.26"/><ellipse cx="997.6232" cy="463.26" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/><path d="M997.7326,458.6038 L996.5763,463.6819 L998.9045,463.6819 L997.7326,458.6038 Z M996.2482,456.3694 L999.2326,456.3694 L1002.592,468.76 L1000.1388,468.76 L999.3732,465.6975 L996.092,465.6975 L995.342,468.76 L992.9045,468.76 L996.2482,456.3694 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="126.5059" x="1014.3906" y="468.1067">SleepinessReason</text><line style="stroke:#181818;stroke-width:0.5;" x1="971.17" x2="1155.3497" y1="479.26" y2="479.26"/><line style="stroke:#181818;stroke-width:0.5;" x1="971.17" x2="1155.3497" y1="487.26" y2="487.26"/><g data-visibility-modifier="PUBLIC_METHOD"><ellipse cx="981.17" cy="500.9084" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135.7891" x="990.17" y="504.2551">apply(Person): void</text><g data-visibility-modifier="PROTECTED_METHOD"><polygon fill="#FFFF44" points="981.17,512.2053,985.17,516.2053,981.17,520.2053,977.17,516.2053" style="stroke:#B38D22;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154.2393" x="990.17" y="520.552">doApply(Person): void</text><g data-visibility-modifier="PROTECTED_METHOD"><polygon fill="#FFFF44" points="981.17,528.5022,985.17,532.5022,981.17,536.5022,977.17,532.5022" style="stroke:#B38D22;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160.1797" x="990.17" y="536.8489">message(Person): void</text></g><!--class UnknownReason--><g class="entity" data-entity="UnknownReason" data-source-line="46" data-uid="ent0012" id="entity_UnknownReason"><rect fill="#F1F1F1" height="80.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="186.1797" x="1059.17" y="229.19"/><ellipse cx="1091.0621" cy="245.19" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/><path d="M1094.0309,250.8306 Q1093.4528,251.1275 1092.8121,251.2681 Q1092.1715,251.4244 1091.4684,251.4244 Q1088.9684,251.4244 1087.6403,249.7838 Q1086.3278,248.1275 1086.3278,245.0025 Q1086.3278,241.8775 1087.6403,240.2213 Q1088.9684,238.565 1091.4684,238.565 Q1092.1715,238.565 1092.8121,238.7213 Q1093.4684,238.8775 1094.0309,239.1744 L1094.0309,241.8931 Q1093.4059,241.315 1092.8121,241.0494 Q1092.2184,240.7681 1091.5934,240.7681 Q1090.2496,240.7681 1089.5621,241.8463 Q1088.8746,242.9088 1088.8746,245.0025 Q1088.8746,247.0963 1089.5621,248.1744 Q1090.2496,249.2369 1091.5934,249.2369 Q1092.2184,249.2369 1092.8121,248.9713 Q1093.4059,248.69 1094.0309,248.1119 L1094.0309,250.8306 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116.6416" x="1108.8159" y="250.0367">UnknownReason</text><line style="stroke:#181818;stroke-width:0.5;" x1="1060.17" x2="1244.3497" y1="261.19" y2="261.19"/><line style="stroke:#181818;stroke-width:0.5;" x1="1060.17" x2="1244.3497" y1="269.19" y2="269.19"/><g data-visibility-modifier="PROTECTED_METHOD"><polygon fill="#FFFF44" points="1070.17,277.8384,1074.17,281.8384,1070.17,285.8384,1066.17,281.8384" style="stroke:#B38D22;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154.2393" x="1079.17" y="286.1851">doApply(Person): void</text><g data-visibility-modifier="PROTECTED_METHOD"><polygon fill="#FFFF44" points="1070.17,294.1353,1074.17,298.1353,1070.17,302.1353,1066.17,298.1353" style="stroke:#B38D22;stroke-width:1;"/></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160.1797" x="1079.17" y="302.482">message(Person): void</text></g><!--link BrickToHeadHit to SleepinessReason--><g class="link" data-entity-1="BrickToHeadHit" data-entity-2="SleepinessReason" data-source-line="51" data-uid="lnk13" id="link_BrickToHeadHit_SleepinessReason"><path codeLine="51" d="M773.29,309.95 C773.29,365.96 773.29,460.28 773.29,460.28 C773.29,460.28 867.15,460.28 951.92,460.28" fill="none" id="BrickToHeadHit-to-SleepinessReason" style="stroke:#000082;stroke-width:1;"/><polygon fill="none" points="969.92,460.28,951.92,454.28,951.92,466.28,969.92,460.28" style="stroke:#000082;stroke-width:1;"/></g><!--link Person to LivingEntity--><g class="link" data-entity-1="Person" data-entity-2="LivingEntity" data-source-line="52" data-uid="lnk14" id="link_Person_LivingEntity"><path codeLine="52" d="M430.26,383.59 C430.26,404.23 430.26,406.83 430.26,424.64" fill="none" id="Person-to-LivingEntity" style="stroke:#008200;stroke-width:1;stroke-dasharray:7,7;"/><polygon fill="none" points="430.26,442.64,436.26,424.64,424.26,424.64,430.26,442.64" style="stroke:#008200;stroke-width:1;"/></g><!--link UnknownReason to SleepinessReason--><g class="link" data-entity-1="UnknownReason" data-entity-2="SleepinessReason" data-source-line="53" data-uid="lnk15" id="link_UnknownReason_SleepinessReason"><path codeLine="53" d="M1107.76,310.19 C1107.76,348.61 1107.76,388.25 1107.76,429.07" fill="none" id="UnknownReason-to-SleepinessReason" style="stroke:#000082;stroke-width:1;"/><polygon fill="none" points="1107.76,447.07,1113.76,429.07,1101.76,429.07,1107.76,447.07" style="stroke:#000082;stroke-width:1;"/></g><!--link BigCommotionException to RuntimeException--><g class="link" data-entity-1="BigCommotionException" data-entity-2="RuntimeException" data-source-line="55" data-uid="lnk16" id="link_BigCommotionException_RuntimeException"><path codeLine="55" d="M109.26,520.12 C109.26,559.4 109.26,632.28 109.26,632.28 C109.26,632.28 235.26,632.28 329.77,632.28" fill="none" id="BigCommotionException-to-RuntimeException" style="stroke:#000082;stroke-width:1;"/><polygon fill="none" points="347.77,632.28,329.77,626.28,329.77,638.28,347.77,632.28" style="stroke:#000082;stroke-width:1;"/></g><!--link PersonIsDeadException to RuntimeException--><g class="link" data-entity-1="PersonIsDeadException" data-entity-2="RuntimeException" data-source-line="56" data-uid="lnk17" id="link_PersonIsDeadException_RuntimeException"><path codeLine="56" d="M747.26,520.12 C747.26,559.4 747.26,632.28 747.26,632.28 C747.26,632.28 621.26,632.28 526.76,632.28" fill="none" id="PersonIsDeadException-to-RuntimeException" style="stroke:#000082;stroke-width:1;"/><polygon fill="none" points="508.76,632.28,526.76,638.28,526.76,626.28,508.76,632.28" style="stroke:#000082;stroke-width:1;"/></g><!--link Main to BrickToHeadHit--><g class="link" data-entity-1="Main" data-entity-2="BrickToHeadHit" data-source-line="58" data-uid="lnk18" id="link_Main_BrickToHeadHit"><path codeLine="58" d="M811.09,84.07 C811.09,122.69 811.09,180.99 811.09,222.81" fill="none" id="Main-to-BrickToHeadHit" style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/><polygon fill="#595959" points="811.09,228.81,815.09,219.81,811.09,223.81,807.09,219.81,811.09,228.81" style="stroke:#595959;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41.5518" x="769.09" y="152.5069">create</text></g><!--link Main to Person--><g class="link" data-entity-1="Main" data-entity-2="Person" data-source-line="59" data-uid="lnk19" id="link_Main_Person"><path codeLine="59" d="M786.83,83.97 C786.83,124.16 786.83,187.28 786.83,187.28 C786.83,187.28 707.47,187.28 620.29,187.28" fill="none" id="Main-to-Person" style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/><polygon fill="#595959" points="614.29,187.28,623.29,191.28,619.29,187.28,623.29,183.28,614.29,187.28" style="stroke:#595959;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41.5518" x="710.21" y="183.3469">create</text></g><!--link Main to Situation--><g class="link" data-entity-1="Main" data-entity-2="Situation" data-source-line="60" data-uid="lnk20" id="link_Main_Situation"><path codeLine="60" d="M888.82,84.07 C888.82,119.12 888.82,169.34 888.82,210.69" fill="none" id="Main-to-Situation" style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/><polygon fill="#595959" points="888.82,216.69,892.82,207.69,888.82,211.69,884.82,207.69,888.82,216.69" style="stroke:#595959;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41.5518" x="846.82" y="146.4469">create</text></g><!--link Main to UnknownReason--><g class="link" data-entity-1="Main" data-entity-2="UnknownReason" data-source-line="61" data-uid="lnk21" id="link_Main_UnknownReason"><path codeLine="61" d="M907.39,84.04 C907.39,104.21 907.39,126.28 907.39,126.28 C907.39,126.28 1099.54,126.28 1099.54,126.28 C1099.54,126.28 1099.54,180.5 1099.54,222.84" fill="none" id="Main-to-UnknownReason" style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/><polygon fill="#595959" points="1099.54,228.84,1103.54,219.84,1099.54,223.84,1095.54,219.84,1099.54,228.84" style="stroke:#595959;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41.5518" x="991.62" y="122.3469">create</text></g><!--link Person to BigCommotionException--><g class="link" data-entity-1="Person" data-entity-2="BigCommotionException" data-source-line="62" data-uid="lnk22" id="link_Person_BigCommotionException"><path codeLine="62" d="M246.33,270.28 C174.6,270.28 109.26,270.28 109.26,270.28 C109.26,270.28 109.26,407.43 109.26,465.58" fill="none" id="Person-to-BigCommotionException" style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/><polygon fill="#595959" points="109.26,471.58,113.26,462.58,109.26,466.58,105.26,462.58,109.26,471.58" style="stroke:#595959;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44.04" x="64.26" y="298.4669">throws</text></g><!--link Person to PersonIsDeadException--><g class="link" data-entity-1="Person" data-entity-2="PersonIsDeadException" data-source-line="63" data-uid="lnk23" id="link_Person_PersonIsDeadException"><path codeLine="63" d="M614.15,353.28 C667.28,353.28 711.23,353.28 711.23,353.28 C711.23,353.28 711.23,424.5 711.23,465.22" fill="none" id="Person-to-PersonIsDeadException" style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/><polygon fill="#595959" points="711.23,471.22,715.23,462.22,711.23,466.22,707.23,462.22,711.23,471.22" style="stroke:#595959;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44.04" x="666.23" y="359.7769">throws</text></g><!--SRC=[hPHVRzCm4C3VyobEsqlGEgcQX3IcgT8Oaue4R5hXgIh8JMwjQU8BjjDH8JuH7u6tVJBEzjgagIVHWVlIt9r_zz-MAh04KxAMIiYbninAKebPI5K9BKeef4AxgX18spabILO8O-2sLbQMUFKzmyfV2EBNSdP9PKbEjAFJCbjyf26AV2Wj_4W03Y6dYwegLkaDQaFgnHaiIUPUKw8nOeOTpSz4AelwJcG8x-HIgjaL1s9NS7uEZMOmyFWZ40u-AX0hpiAOMnJCIhk2nkqHI7DHo2McRPbnzYdZUt1JCBy99cJsNaZrwB3al-d8QWviFEdQXLIU7Hf-gqLXqklfLsuIAwP41GhbTJEqmye5pL6k1Hz4wVC8uQobZOUs-LoO-INbs9P5I-7zi4L7sA9sbKyKp-aiXTXQKMxNwgrvm-FIJ1AgkWmOrt3tXLeuJTFofIXglBvxR0A3lNcZycbxsNZ2tZ2CpqZQEe2Ooqj0Ec-GMQqrstrn4zykaDejSEN06m_C5rDZjSWiXBIw_MqFGsG9zb-FuEQJMYYwLoqVps4bdPLTd-FnOP_FwKcFqvLgSlmPTXFp9taS-UxnXDEJVh-Ny-1XxX5R-xmvoNOkUmN16SGUfDZLdGSjEe1_TJFnxm74adxvolqsIGy0uYK-WuE7Nvb6OV7Xzy5Um7Z5_m7OhCP_0iORsW4-FJYH6iQQ781shkdUx0kCzhu3_0C0]--></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css"
+     data-diagram-type="CLASS" height="663px" preserveAspectRatio="none"
+     style="width:1252px;height:663px;background:#FFFFFF;" version="1.1" viewBox="0 0 1252 663" width="1252px"
+     zoomAndPan="magnify">
+    <defs/>
+    <g><!--class RuntimeException-->
+        <g class="entity" data-entity="RuntimeException" data-source-line="4" data-uid="ent0002"
+           id="entity_RuntimeException">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="160.249"
+                  x="348.14" y="608.28"/>
+            <ellipse cx="363.14" cy="624.28" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M366.1088,629.9206 Q365.5306,630.2175 364.89,630.3581 Q364.2494,630.5144 363.5463,630.5144 Q361.0463,630.5144 359.7181,628.8738 Q358.4056,627.2175 358.4056,624.0925 Q358.4056,620.9675 359.7181,619.3113 Q361.0463,617.655 363.5463,617.655 Q364.2494,617.655 364.89,617.8113 Q365.5463,617.9675 366.1088,618.2644 L366.1088,620.9831 Q365.4838,620.405 364.89,620.1394 Q364.2963,619.8581 363.6713,619.8581 Q362.3275,619.8581 361.64,620.9363 Q360.9525,621.9988 360.9525,624.0925 Q360.9525,626.1863 361.64,627.2644 Q362.3275,628.3269 363.6713,628.3269 Q364.2963,628.3269 364.89,628.0613 Q365.4838,627.78 366.1088,627.2019 L366.1088,629.9206 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128.249"
+                  x="377.14" y="629.1267">RuntimeException
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="349.14" x2="507.389" y1="640.28" y2="640.28"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="349.14" x2="507.389" y1="648.28" y2="648.28"/>
+        </g><!--class BigCommotionException-->
+        <g class="entity" data-entity="BigCommotionException" data-source-line="5" data-uid="ent0003"
+           id="entity_BigCommotionException">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="204.5254"
+                  x="7" y="471.7"/>
+            <ellipse cx="22" cy="487.7" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M24.9688,493.3406 Q24.3906,493.6375 23.75,493.7781 Q23.1094,493.9344 22.4063,493.9344 Q19.9063,493.9344 18.5781,492.2937 Q17.2656,490.6375 17.2656,487.5125 Q17.2656,484.3875 18.5781,482.7312 Q19.9063,481.075 22.4063,481.075 Q23.1094,481.075 23.75,481.2312 Q24.4063,481.3875 24.9688,481.6844 L24.9688,484.4031 Q24.3438,483.825 23.75,483.5594 Q23.1563,483.2781 22.5313,483.2781 Q21.1875,483.2781 20.5,484.3562 Q19.8125,485.4187 19.8125,487.5125 Q19.8125,489.6062 20.5,490.6844 Q21.1875,491.7469 22.5313,491.7469 Q23.1563,491.7469 23.75,491.4812 Q24.3438,491.2 24.9688,490.6219 L24.9688,493.3406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172.5254"
+                  x="36" y="492.5467">BigCommotionException
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="210.5254" y1="503.7" y2="503.7"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="210.5254" y1="511.7" y2="511.7"/>
+        </g><!--class BrickToHeadHit-->
+        <g class="entity" data-entity="BrickToHeadHit" data-source-line="6" data-uid="ent0004"
+           id="entity_BrickToHeadHit">
+            <rect fill="#F1F1F1" height="80.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="186.1797" x="649.17" y="229.19"/>
+            <ellipse cx="684.6428" cy="245.19" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M687.6116,250.8306 Q687.0334,251.1275 686.3928,251.2681 Q685.7522,251.4244 685.0491,251.4244 Q682.5491,251.4244 681.2209,249.7838 Q679.9084,248.1275 679.9084,245.0025 Q679.9084,241.8775 681.2209,240.2213 Q682.5491,238.565 685.0491,238.565 Q685.7522,238.565 686.3928,238.7213 Q687.0491,238.8775 687.6116,239.1744 L687.6116,241.8931 Q686.9866,241.315 686.3928,241.0494 Q685.7991,240.7681 685.1741,240.7681 Q683.8303,240.7681 683.1428,241.8463 Q682.4553,242.9088 682.4553,245.0025 Q682.4553,247.0963 683.1428,248.1744 Q683.8303,249.2369 685.1741,249.2369 Q685.7991,249.2369 686.3928,248.9713 Q686.9866,248.69 687.6116,248.1119 L687.6116,250.8306 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108.6846"
+                  x="703.1923" y="250.0367">BrickToHeadHit
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="650.17" x2="834.3497" y1="261.19" y2="261.19"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="650.17" x2="834.3497" y1="269.19" y2="269.19"/>
+            <g data-visibility-modifier="PROTECTED_METHOD">
+                <polygon fill="#FFFF44" points="660.17,277.8384,664.17,281.8384,660.17,285.8384,656.17,281.8384"
+                         style="stroke:#B38D22;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154.2393"
+                  x="669.17" y="286.1851">doApply(Person): void
+            </text>
+            <g data-visibility-modifier="PROTECTED_METHOD">
+                <polygon fill="#FFFF44" points="660.17,294.1353,664.17,298.1353,660.17,302.1353,656.17,298.1353"
+                         style="stroke:#B38D22;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160.1797"
+                  x="669.17" y="302.482">message(Person): void
+            </text>
+        </g><!--class LivingEntity-->
+        <g class="entity" data-entity="LivingEntity" data-source-line="10" data-uid="ent0005" id="entity_LivingEntity">
+            <rect fill="#F1F1F1" height="105.1563" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="367.2568" x="246.63" y="443.12"/>
+            <ellipse cx="384.7604" cy="463.2528" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M380.6822,459.0184 L380.6822,456.8622 L388.0729,456.8622 L388.0729,459.0184 L385.6041,459.0184 L385.6041,467.0966 L388.0729,467.0966 L388.0729,469.2528 L380.6822,469.2528 L380.6822,467.0966 L383.151,467.0966 L383.151,459.0184 L380.6822,459.0184 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="68.2031" x="412.4069" y="459.2587">&#171;interface&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="82.4961" x="405.2604" y="475.0839">LivingEntity
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="247.63" x2="612.8868" y1="483.3856" y2="483.3856"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="247.63" x2="612.8868" y1="491.3856" y2="491.3856"/>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="505.0341" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="341.2568"
+                  x="266.63" y="508.3807">applySleepinessReason(SleepinessReason): void
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="521.3309" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95.1563"
+                  x="266.63" y="524.6776">isAlive(): void
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="537.6278" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151.3887"
+                  x="266.63" y="540.9745">sleep(int, Place): void
+            </text>
+        </g><!--class Main-->
+        <g class="entity" data-entity="Main" data-source-line="15" data-uid="ent0006" id="entity_Main">
+            <rect fill="#F1F1F1" height="64.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="163.4023" x="762.56" y="19.28"/>
+            <ellipse cx="823.3007" cy="35.28" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M826.2695,40.9206 Q825.6913,41.2175 825.0507,41.3581 Q824.4101,41.5144 823.707,41.5144 Q821.207,41.5144 819.8788,39.8737 Q818.5663,38.2175 818.5663,35.0925 Q818.5663,31.9675 819.8788,30.3112 Q821.207,28.655 823.707,28.655 Q824.4101,28.655 825.0507,28.8112 Q825.707,28.9675 826.2695,29.2644 L826.2695,31.9831 Q825.6445,31.405 825.0507,31.1394 Q824.457,30.8581 823.832,30.8581 Q822.4882,30.8581 821.8007,31.9362 Q821.1132,32.9987 821.1132,35.0925 Q821.1132,37.1862 821.8007,38.2644 Q822.4882,39.3269 823.832,39.3269 Q824.457,39.3269 825.0507,39.0612 Q825.6445,38.78 826.2695,38.2019 L826.2695,40.9206 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33.4209"
+                  x="843.8007" y="40.1267">Main
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="763.56" x2="924.9623" y1="51.28" y2="51.28"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="763.56" x2="924.9623" y1="59.28" y2="59.28"/>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="773.56" cy="72.9284" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137.4023"
+                  x="782.56" y="76.2751">main(String[]): void
+            </text>
+        </g><!--class Person-->
+        <g class="entity" data-entity="Person" data-source-line="18" data-uid="ent0007" id="entity_Person">
+            <rect fill="#F1F1F1" height="227.2656" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="367.2568" x="246.63" y="155.86"/>
+            <ellipse cx="402.2364" cy="171.86" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M405.2052,177.5006 Q404.6271,177.7975 403.9864,177.9381 Q403.3458,178.0944 402.6427,178.0944 Q400.1427,178.0944 398.8146,176.4537 Q397.5021,174.7975 397.5021,171.6725 Q397.5021,168.5475 398.8146,166.8912 Q400.1427,165.235 402.6427,165.235 Q403.3458,165.235 403.9864,165.3912 Q404.6427,165.5475 405.2052,165.8444 L405.2052,168.5631 Q404.5802,167.985 403.9864,167.7194 Q403.3927,167.4381 402.7677,167.4381 Q401.4239,167.4381 400.7364,168.5162 Q400.0489,169.5787 400.0489,171.6725 Q400.0489,173.7662 400.7364,174.8444 Q401.4239,175.9069 402.7677,175.9069 Q403.3927,175.9069 403.9864,175.6412 Q404.5802,175.36 405.2052,174.7819 L405.2052,177.5006 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47.5439"
+                  x="422.7364" y="176.7067">Person
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="247.63" x2="612.8868" y1="187.86" y2="187.86"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="247.63" x2="612.8868" y1="195.86" y2="195.86"/>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="209.5084" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="341.2568"
+                  x="266.63" y="212.8551">applySleepinessReason(SleepinessReason): void
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="225.8053" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167.7949"
+                  x="266.63" y="229.152">equals(Object): boolean
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="242.1022" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80.7461"
+                  x="266.63" y="245.4489">getHp(): int
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="258.3991" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126.1641"
+                  x="266.63" y="261.7457">getName(): String
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="274.6959" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136.1855"
+                  x="266.63" y="278.0426">getSleepiness(): int
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="290.9928" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107.8027"
+                  x="266.63" y="294.3395">hashCode(): int
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="307.2897" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95.1563"
+                  x="266.63" y="310.6364">isAlive(): void
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="323.5866" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108.7803"
+                  x="266.63" y="326.9332">setHp(int): void
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="339.8834" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164.2197"
+                  x="266.63" y="343.2301">setSleepiness(int): void
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="356.1803" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151.3887"
+                  x="266.63" y="359.527">sleep(int, Place): void
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="257.63" cy="372.4772" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117.708"
+                  x="266.63" y="375.8239">toString(): String
+            </text>
+        </g><!--class PersonIsDeadException-->
+        <g class="entity" data-entity="PersonIsDeadException" data-source-line="31" data-uid="ent0008"
+           id="entity_PersonIsDeadException">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="196.9717"
+                  x="648.78" y="471.7"/>
+            <ellipse cx="663.78" cy="487.7" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M666.7488,493.3406 Q666.1706,493.6375 665.53,493.7781 Q664.8894,493.9344 664.1863,493.9344 Q661.6863,493.9344 660.3581,492.2937 Q659.0456,490.6375 659.0456,487.5125 Q659.0456,484.3875 660.3581,482.7312 Q661.6863,481.075 664.1863,481.075 Q664.8894,481.075 665.53,481.2312 Q666.1863,481.3875 666.7488,481.6844 L666.7488,484.4031 Q666.1238,483.825 665.53,483.5594 Q664.9363,483.2781 664.3113,483.2781 Q662.9675,483.2781 662.28,484.3562 Q661.5925,485.4187 661.5925,487.5125 Q661.5925,489.6062 662.28,490.6844 Q662.9675,491.7469 664.3113,491.7469 Q664.9363,491.7469 665.53,491.4812 Q666.1238,491.2 666.7488,490.6219 L666.7488,493.3406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164.9717"
+                  x="677.78" y="492.5467">PersonIsDeadException
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="649.78" x2="844.7517" y1="503.7" y2="503.7"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="649.78" x2="844.7517" y1="511.7" y2="511.7"/>
+        </g><!--class Place-->
+        <g class="entity" data-entity="Place" data-source-line="32" data-uid="ent0009" id="entity_Place">
+            <rect fill="#F1F1F1" height="88.8594" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="179.2822" x="960.62" y="7"/>
+            <ellipse cx="1002.4666" cy="27.1328" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1006.576,33.1328 L998.8573,33.1328 L998.8573,20.7422 L1006.576,20.7422 L1006.576,22.8984 L1001.3104,22.8984 L1001.3104,25.5703 L1006.076,25.5703 L1006.076,27.7266 L1001.3104,27.7266 L1001.3104,30.9766 L1006.576,30.9766 L1006.576,33.1328 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="91.623" x="1020.4325" y="23.1387">&#171;enumeration&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37.2217"
+                  x="1047.6332" y="38.9639">Place
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="961.62" x2="1138.9022" y1="47.2656" y2="47.2656"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="961.62" x2="1138.9022" y1="55.2656" y2="55.2656"/>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="971.62" cy="68.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153.2822"
+                  x="980.62" y="72.2607">valueOf(String): Place
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="971.62" cy="85.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113.7705"
+                  x="980.62" y="88.5576">values(): Place[]
+            </text>
+        </g><!--class Situation-->
+        <g class="entity" data-entity="Situation" data-source-line="36" data-uid="ent0010" id="entity_Situation">
+            <rect fill="#F1F1F1" height="105.1563" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="154.0303" x="870.25" y="216.91"/>
+            <ellipse cx="912.0228" cy="237.0428" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M916.1322,243.0428 L908.4134,243.0428 L908.4134,230.6522 L916.1322,230.6522 L916.1322,232.8084 L910.8666,232.8084 L910.8666,235.4803 L915.6322,235.4803 L915.6322,237.6366 L910.8666,237.6366 L910.8666,240.8866 L916.1322,240.8866 L916.1322,243.0428 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing"
+                  textLength="53.4902" x="936.4948" y="233.0487">&#171;record&#187;
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62.5352"
+                  x="931.9723" y="248.8739">Situation
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="871.25" x2="1023.2803" y1="257.1756" y2="257.1756"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="871.25" x2="1023.2803" y1="265.1756" y2="265.1756"/>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="881.25" cy="278.8241" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128.0303"
+                  x="890.25" y="282.1707">current_time(): int
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="881.25" cy="295.1209" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101.5752"
+                  x="890.25" y="298.4676">name(): String
+            </text>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="881.25" cy="311.4178" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94.9785"
+                  x="890.25" y="314.7645">place(): Place
+            </text>
+        </g><!--class SleepinessReason-->
+        <g class="entity" data-entity="SleepinessReason" data-source-line="41" data-uid="ent0011"
+           id="entity_SleepinessReason">
+            <rect fill="#F1F1F1" height="96.8906" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="186.1797" x="970.17" y="447.26"/>
+            <ellipse cx="997.6232" cy="463.26" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M997.7326,458.6038 L996.5763,463.6819 L998.9045,463.6819 L997.7326,458.6038 Z M996.2482,456.3694 L999.2326,456.3694 L1002.592,468.76 L1000.1388,468.76 L999.3732,465.6975 L996.092,465.6975 L995.342,468.76 L992.9045,468.76 L996.2482,456.3694 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="126.5059" x="1014.3906" y="468.1067">SleepinessReason
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="971.17" x2="1155.3497" y1="479.26" y2="479.26"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="971.17" x2="1155.3497" y1="487.26" y2="487.26"/>
+            <g data-visibility-modifier="PUBLIC_METHOD">
+                <ellipse cx="981.17" cy="500.9084" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135.7891"
+                  x="990.17" y="504.2551">apply(Person): void
+            </text>
+            <g data-visibility-modifier="PROTECTED_METHOD">
+                <polygon fill="#FFFF44" points="981.17,512.2053,985.17,516.2053,981.17,520.2053,977.17,516.2053"
+                         style="stroke:#B38D22;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154.2393"
+                  x="990.17" y="520.552">doApply(Person): void
+            </text>
+            <g data-visibility-modifier="PROTECTED_METHOD">
+                <polygon fill="#FFFF44" points="981.17,528.5022,985.17,532.5022,981.17,536.5022,977.17,532.5022"
+                         style="stroke:#B38D22;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160.1797"
+                  x="990.17" y="536.8489">message(Person): void
+            </text>
+        </g><!--class UnknownReason-->
+        <g class="entity" data-entity="UnknownReason" data-source-line="46" data-uid="ent0012"
+           id="entity_UnknownReason">
+            <rect fill="#F1F1F1" height="80.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="186.1797" x="1059.17" y="229.19"/>
+            <ellipse cx="1091.0621" cy="245.19" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1094.0309,250.8306 Q1093.4528,251.1275 1092.8121,251.2681 Q1092.1715,251.4244 1091.4684,251.4244 Q1088.9684,251.4244 1087.6403,249.7838 Q1086.3278,248.1275 1086.3278,245.0025 Q1086.3278,241.8775 1087.6403,240.2213 Q1088.9684,238.565 1091.4684,238.565 Q1092.1715,238.565 1092.8121,238.7213 Q1093.4684,238.8775 1094.0309,239.1744 L1094.0309,241.8931 Q1093.4059,241.315 1092.8121,241.0494 Q1092.2184,240.7681 1091.5934,240.7681 Q1090.2496,240.7681 1089.5621,241.8463 Q1088.8746,242.9088 1088.8746,245.0025 Q1088.8746,247.0963 1089.5621,248.1744 Q1090.2496,249.2369 1091.5934,249.2369 Q1092.2184,249.2369 1092.8121,248.9713 Q1093.4059,248.69 1094.0309,248.1119 L1094.0309,250.8306 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116.6416"
+                  x="1108.8159" y="250.0367">UnknownReason
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1060.17" x2="1244.3497" y1="261.19" y2="261.19"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1060.17" x2="1244.3497" y1="269.19" y2="269.19"/>
+            <g data-visibility-modifier="PROTECTED_METHOD">
+                <polygon fill="#FFFF44" points="1070.17,277.8384,1074.17,281.8384,1070.17,285.8384,1066.17,281.8384"
+                         style="stroke:#B38D22;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154.2393"
+                  x="1079.17" y="286.1851">doApply(Person): void
+            </text>
+            <g data-visibility-modifier="PROTECTED_METHOD">
+                <polygon fill="#FFFF44" points="1070.17,294.1353,1074.17,298.1353,1070.17,302.1353,1066.17,298.1353"
+                         style="stroke:#B38D22;stroke-width:1;"/>
+            </g>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160.1797"
+                  x="1079.17" y="302.482">message(Person): void
+            </text>
+        </g><!--link BrickToHeadHit to SleepinessReason-->
+        <g class="link" data-entity-1="BrickToHeadHit" data-entity-2="SleepinessReason" data-source-line="51"
+           data-uid="lnk13" id="link_BrickToHeadHit_SleepinessReason">
+            <path codeLine="51"
+                  d="M773.29,309.95 C773.29,365.96 773.29,460.28 773.29,460.28 C773.29,460.28 867.15,460.28 951.92,460.28"
+                  fill="none" id="BrickToHeadHit-to-SleepinessReason" style="stroke:#000082;stroke-width:1;"/>
+            <polygon fill="none" points="969.92,460.28,951.92,454.28,951.92,466.28,969.92,460.28"
+                     style="stroke:#000082;stroke-width:1;"/>
+        </g><!--link Person to LivingEntity-->
+        <g class="link" data-entity-1="Person" data-entity-2="LivingEntity" data-source-line="52" data-uid="lnk14"
+           id="link_Person_LivingEntity">
+            <path codeLine="52" d="M430.26,383.59 C430.26,404.23 430.26,406.83 430.26,424.64" fill="none"
+                  id="Person-to-LivingEntity" style="stroke:#008200;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="none" points="430.26,442.64,436.26,424.64,424.26,424.64,430.26,442.64"
+                     style="stroke:#008200;stroke-width:1;"/>
+        </g><!--link UnknownReason to SleepinessReason-->
+        <g class="link" data-entity-1="UnknownReason" data-entity-2="SleepinessReason" data-source-line="53"
+           data-uid="lnk15" id="link_UnknownReason_SleepinessReason">
+            <path codeLine="53" d="M1107.76,310.19 C1107.76,348.61 1107.76,388.25 1107.76,429.07" fill="none"
+                  id="UnknownReason-to-SleepinessReason" style="stroke:#000082;stroke-width:1;"/>
+            <polygon fill="none" points="1107.76,447.07,1113.76,429.07,1101.76,429.07,1107.76,447.07"
+                     style="stroke:#000082;stroke-width:1;"/>
+        </g><!--link BigCommotionException to RuntimeException-->
+        <g class="link" data-entity-1="BigCommotionException" data-entity-2="RuntimeException" data-source-line="55"
+           data-uid="lnk16" id="link_BigCommotionException_RuntimeException">
+            <path codeLine="55"
+                  d="M109.26,520.12 C109.26,559.4 109.26,632.28 109.26,632.28 C109.26,632.28 235.26,632.28 329.77,632.28"
+                  fill="none" id="BigCommotionException-to-RuntimeException" style="stroke:#000082;stroke-width:1;"/>
+            <polygon fill="none" points="347.77,632.28,329.77,626.28,329.77,638.28,347.77,632.28"
+                     style="stroke:#000082;stroke-width:1;"/>
+        </g><!--link PersonIsDeadException to RuntimeException-->
+        <g class="link" data-entity-1="PersonIsDeadException" data-entity-2="RuntimeException" data-source-line="56"
+           data-uid="lnk17" id="link_PersonIsDeadException_RuntimeException">
+            <path codeLine="56"
+                  d="M747.26,520.12 C747.26,559.4 747.26,632.28 747.26,632.28 C747.26,632.28 621.26,632.28 526.76,632.28"
+                  fill="none" id="PersonIsDeadException-to-RuntimeException" style="stroke:#000082;stroke-width:1;"/>
+            <polygon fill="none" points="508.76,632.28,526.76,638.28,526.76,626.28,508.76,632.28"
+                     style="stroke:#000082;stroke-width:1;"/>
+        </g><!--link Main to BrickToHeadHit-->
+        <g class="link" data-entity-1="Main" data-entity-2="BrickToHeadHit" data-source-line="58" data-uid="lnk18"
+           id="link_Main_BrickToHeadHit">
+            <path codeLine="58" d="M811.09,84.07 C811.09,122.69 811.09,180.99 811.09,222.81" fill="none"
+                  id="Main-to-BrickToHeadHit" style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#595959" points="811.09,228.81,815.09,219.81,811.09,223.81,807.09,219.81,811.09,228.81"
+                     style="stroke:#595959;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41.5518"
+                  x="769.09" y="152.5069">create
+            </text>
+        </g><!--link Main to Person-->
+        <g class="link" data-entity-1="Main" data-entity-2="Person" data-source-line="59" data-uid="lnk19"
+           id="link_Main_Person">
+            <path codeLine="59"
+                  d="M786.83,83.97 C786.83,124.16 786.83,187.28 786.83,187.28 C786.83,187.28 707.47,187.28 620.29,187.28"
+                  fill="none" id="Main-to-Person" style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#595959" points="614.29,187.28,623.29,191.28,619.29,187.28,623.29,183.28,614.29,187.28"
+                     style="stroke:#595959;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41.5518"
+                  x="710.21" y="183.3469">create
+            </text>
+        </g><!--link Main to Situation-->
+        <g class="link" data-entity-1="Main" data-entity-2="Situation" data-source-line="60" data-uid="lnk20"
+           id="link_Main_Situation">
+            <path codeLine="60" d="M888.82,84.07 C888.82,119.12 888.82,169.34 888.82,210.69" fill="none"
+                  id="Main-to-Situation" style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#595959" points="888.82,216.69,892.82,207.69,888.82,211.69,884.82,207.69,888.82,216.69"
+                     style="stroke:#595959;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41.5518"
+                  x="846.82" y="146.4469">create
+            </text>
+        </g><!--link Main to UnknownReason-->
+        <g class="link" data-entity-1="Main" data-entity-2="UnknownReason" data-source-line="61" data-uid="lnk21"
+           id="link_Main_UnknownReason">
+            <path codeLine="61"
+                  d="M907.39,84.04 C907.39,104.21 907.39,126.28 907.39,126.28 C907.39,126.28 1099.54,126.28 1099.54,126.28 C1099.54,126.28 1099.54,180.5 1099.54,222.84"
+                  fill="none" id="Main-to-UnknownReason" style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#595959" points="1099.54,228.84,1103.54,219.84,1099.54,223.84,1095.54,219.84,1099.54,228.84"
+                     style="stroke:#595959;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41.5518"
+                  x="991.62" y="122.3469">create
+            </text>
+        </g><!--link Person to BigCommotionException-->
+        <g class="link" data-entity-1="Person" data-entity-2="BigCommotionException" data-source-line="62"
+           data-uid="lnk22" id="link_Person_BigCommotionException">
+            <path codeLine="62"
+                  d="M246.33,270.28 C174.6,270.28 109.26,270.28 109.26,270.28 C109.26,270.28 109.26,407.43 109.26,465.58"
+                  fill="none" id="Person-to-BigCommotionException"
+                  style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#595959" points="109.26,471.58,113.26,462.58,109.26,466.58,105.26,462.58,109.26,471.58"
+                     style="stroke:#595959;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44.04"
+                  x="64.26" y="298.4669">throws
+            </text>
+        </g><!--link Person to PersonIsDeadException-->
+        <g class="link" data-entity-1="Person" data-entity-2="PersonIsDeadException" data-source-line="63"
+           data-uid="lnk23" id="link_Person_PersonIsDeadException">
+            <path codeLine="63"
+                  d="M614.15,353.28 C667.28,353.28 711.23,353.28 711.23,353.28 C711.23,353.28 711.23,424.5 711.23,465.22"
+                  fill="none" id="Person-to-PersonIsDeadException"
+                  style="stroke:#595959;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#595959" points="711.23,471.22,715.23,462.22,711.23,466.22,707.23,462.22,711.23,471.22"
+                     style="stroke:#595959;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44.04"
+                  x="666.23" y="359.7769">throws
+            </text>
+        </g><!--SRC=[hPHVRzCm4C3VyobEsqlGEgcQX3IcgT8Oaue4R5hXgIh8JMwjQU8BjjDH8JuH7u6tVJBEzjgagIVHWVlIt9r_zz-MAh04KxAMIiYbninAKebPI5K9BKeef4AxgX18spabILO8O-2sLbQMUFKzmyfV2EBNSdP9PKbEjAFJCbjyf26AV2Wj_4W03Y6dYwegLkaDQaFgnHaiIUPUKw8nOeOTpSz4AelwJcG8x-HIgjaL1s9NS7uEZMOmyFWZ40u-AX0hpiAOMnJCIhk2nkqHI7DHo2McRPbnzYdZUt1JCBy99cJsNaZrwB3al-d8QWviFEdQXLIU7Hf-gqLXqklfLsuIAwP41GhbTJEqmye5pL6k1Hz4wVC8uQobZOUs-LoO-INbs9P5I-7zi4L7sA9sbKyKp-aiXTXQKMxNwgrvm-FIJ1AgkWmOrt3tXLeuJTFofIXglBvxR0A3lNcZycbxsNZ2tZ2CpqZQEe2Ooqj0Ec-GMQqrstrn4zykaDejSEN06m_C5rDZjSWiXBIw_MqFGsG9zb-FuEQJMYYwLoqVps4bdPLTd-FnOP_FwKcFqvLgSlmPTXFp9taS-UxnXDEJVh-Ny-1XxX5R-xmvoNOkUmN16SGUfDZLdGSjEe1_TJFnxm74adxvolqsIGy0uYK-WuE7Nvb6OV7Xzy5Um7Z5_m7OhCP_0iORsW4-FJYH6iQQ781shkdUx0kCzhu3_0C0]-->
+    </g>
+</svg>

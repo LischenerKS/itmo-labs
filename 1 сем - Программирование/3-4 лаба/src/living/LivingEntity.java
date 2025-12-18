@@ -1,14 +1,22 @@
 package living;
 
-import exceptions.PersonIsDeadException;
-import places.Place;
+import exceptions.EntityIsDeadException;
 import sleepiness.SleepinessReason;
 
+abstract public class LivingEntity {
+    protected String name;
+    protected int hp;
+    protected int sleepiness;
 
-public interface LivingEntity {
-    void applySleepinessReason(SleepinessReason reason);
+    abstract public void applySleepinessReason(SleepinessReason reason);
 
-    void sleep(int current_time, Place place) throws PersonIsDeadException;
+    abstract public void isAlive() throws EntityIsDeadException;
 
-    void isAlive() throws PersonIsDeadException;
+    final public String getName() {
+        return this.name;
+    }
+
+    final public int getSleepiness() {
+        return this.sleepiness;
+    }
 }

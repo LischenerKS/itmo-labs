@@ -1,49 +1,30 @@
-/*
- * Неизвестно, то ли от удара по голове кирпичом, то ли по какой другой причине,
- * но на Свистулькина напала страшная сонливость, и он проспал весь день, всю ночь
- * и почти все следующее утро.
- *
- * Точнее говоря, он заснул в десять часов утра, а проснулся
- * на следующий день в одиннадцать, проспав, таким образом, двадцать пять часов подряд,
- * то есть целые сутки и еще час в придачу.
- *
- * Если бы Свистулькин заснул в своей квартире,
- * где его могли сразу найти, то ничего особенного не случилось бы, но он спал в чужом
- * помещении, где никто не думал его искать, и из-за этого произошел большой переполох.
- */
+import items.Brick;
+import items.Candlestick;
+import items.Fallable;
+import items.MagicBall;
 
-import living.Person;
-import places.Place;
-import sleepiness.SleepinessReason;
-import sleepiness.reasons.BrickToHeadHit;
-import sleepiness.reasons.UnknownReason;
+import java.time.LocalDateTime;
 
 import java.util.ArrayList;
 
-;
+import living.Alien;
+import living.Person;
+
+import places.flats.OwnFlat;
+import places.flats.SomeoneElsesFlat;
 
 public class Main {
     public static void main(String[] args) {
-        Situation[] situations = new Situation[2];
-        situations[0] = new Situation("Свистулькин", 9, Place.OWN_FLAT);
-        situations[1] = new Situation("Кричалкин", 19, Place.SOMEONE_ELSES_ROOM);
+        ArrayList<Situation> situations = new ArrayList<>(2);
 
-        for (Situation situation : situations) {
-            Person person = new Person(situation.name());
+        Fallable[] fallingItems = new Fallable[] {new Brick(), new Candlestick(), new MagicBall()};
 
-            ArrayList<SleepinessReason> sleepinessReasons = new ArrayList<>(2);
+        situations.add(new Situation(new Alien("Олег"), fallingItems, LocalDateTime.now(), new OwnFlat()));
+        situations.add(new Situation(new Person("Свистулькин"), fallingItems, LocalDateTime.now(), new SomeoneElsesFlat()));
 
-            sleepinessReasons.add(new BrickToHeadHit(99, 20));
-            sleepinessReasons.add(new UnknownReason());
-
-            for (SleepinessReason reason : sleepinessReasons) {
-                person.applySleepinessReason(reason);
-            }
-
-            person.sleep(situation.current_time(), situation.place());
-            System.out.println();
+        for(Situation situation : situations) {
+            situation.runSituation();
         }
-
 
     }
 }

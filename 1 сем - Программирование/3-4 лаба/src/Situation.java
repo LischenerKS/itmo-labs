@@ -1,4 +1,17 @@
+import items.Fallable;
+import living.LivingEntity;
 import places.Place;
 
-public record Situation(String name, int current_time, Place place) {
-} // время указывается в 24-ом формате
+import java.time.LocalDateTime;
+
+public record Situation(LivingEntity ent, Fallable[] FallingItems, LocalDateTime currentTime, Place place) {
+    public void runSituation() {
+
+        for(Fallable item : this.FallingItems) {
+            item.fall(this.ent);
+        }
+
+        this.place.sleepHere(this.currentTime(), this.ent);
+        System.out.println();
+    }
+}

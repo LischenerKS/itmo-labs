@@ -1,18 +1,7 @@
 package sleepiness;
 
-import exceptions.PersonIsDeadException;
-import living.Person;
-
-public abstract class SleepinessReason {
-    abstract protected void message(Person person);
-
-    abstract protected void doApply(Person person) throws PersonIsDeadException;
-
-    public void apply(Person person) {
-        doApply(person);
-        message(person);
-    }
-
+public enum SleepinessReason {
+    BRICK_TO_HEAD_HIT,
+    UNKNOWN_REASON,
+    CANDLESTICK_TO_HEAD_HIT
 }
-
-
